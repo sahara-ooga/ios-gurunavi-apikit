@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */; };
+		10F4C75B1FBDDCF800A5BDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */; };
+		10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */; };
+		10F4C7601FBDDCF800A5BDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */; };
+		10F4C7631FBDDCF800A5BDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */; };
+		10F4C76E1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10F4C76A1FBDDCF900A5BDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F4C74D1FBDDCF800A5BDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F4C7541FBDDCF800A5BDEB;
+			remoteInfo = "ios-gurunavi-apikit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gurunavi-apikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10F4C75D1FBDDCF800A5BDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F4C7621FBDDCF800A5BDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10F4C7641FBDDCF800A5BDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F4C7691FBDDCF900A5BDEB /* ios-gurunavi-apikitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gurunavi-apikitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gurunavi_apikitTests.swift; sourceTree = "<group>"; };
+		10F4C76F1FBDDCF900A5BDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F4C7521FBDDCF800A5BDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F4C7661FBDDCF800A5BDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F4C74C1FBDDCF800A5BDEB = {
+			isa = PBXGroup;
+			children = (
+				10F4C7571FBDDCF800A5BDEB /* ios-gurunavi-apikit */,
+				10F4C76C1FBDDCF900A5BDEB /* ios-gurunavi-apikitTests */,
+				10F4C7561FBDDCF800A5BDEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F4C7561FBDDCF800A5BDEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */,
+				10F4C7691FBDDCF900A5BDEB /* ios-gurunavi-apikitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F4C7571FBDDCF800A5BDEB /* ios-gurunavi-apikit */ = {
+			isa = PBXGroup;
+			children = (
+				10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */,
+				10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */,
+				10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */,
+				10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */,
+				10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */,
+				10F4C7641FBDDCF800A5BDEB /* Info.plist */,
+			);
+			path = "ios-gurunavi-apikit";
+			sourceTree = "<group>";
+		};
+		10F4C76C1FBDDCF900A5BDEB /* ios-gurunavi-apikitTests */ = {
+			isa = PBXGroup;
+			children = (
+				10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */,
+				10F4C76F1FBDDCF900A5BDEB /* Info.plist */,
+			);
+			path = "ios-gurunavi-apikitTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F4C7541FBDDCF800A5BDEB /* ios-gurunavi-apikit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F4C7721FBDDCF900A5BDEB /* Build configuration list for PBXNativeTarget "ios-gurunavi-apikit" */;
+			buildPhases = (
+				10F4C7511FBDDCF800A5BDEB /* Sources */,
+				10F4C7521FBDDCF800A5BDEB /* Frameworks */,
+				10F4C7531FBDDCF800A5BDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-gurunavi-apikit";
+			productName = "ios-gurunavi-apikit";
+			productReference = 10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10F4C7681FBDDCF800A5BDEB /* ios-gurunavi-apikitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F4C7751FBDDCF900A5BDEB /* Build configuration list for PBXNativeTarget "ios-gurunavi-apikitTests" */;
+			buildPhases = (
+				10F4C7651FBDDCF800A5BDEB /* Sources */,
+				10F4C7661FBDDCF800A5BDEB /* Frameworks */,
+				10F4C7671FBDDCF800A5BDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F4C76B1FBDDCF900A5BDEB /* PBXTargetDependency */,
+			);
+			name = "ios-gurunavi-apikitTests";
+			productName = "ios-gurunavi-apikitTests";
+			productReference = 10F4C7691FBDDCF900A5BDEB /* ios-gurunavi-apikitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F4C74D1FBDDCF800A5BDEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sunday Carpenter";
+				TargetAttributes = {
+					10F4C7541FBDDCF800A5BDEB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					10F4C7681FBDDCF800A5BDEB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10F4C7541FBDDCF800A5BDEB;
+					};
+				};
+			};
+			buildConfigurationList = 10F4C7501FBDDCF800A5BDEB /* Build configuration list for PBXProject "ios-gurunavi-apikit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F4C74C1FBDDCF800A5BDEB;
+			productRefGroup = 10F4C7561FBDDCF800A5BDEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F4C7541FBDDCF800A5BDEB /* ios-gurunavi-apikit */,
+				10F4C7681FBDDCF800A5BDEB /* ios-gurunavi-apikitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F4C7531FBDDCF800A5BDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F4C7631FBDDCF800A5BDEB /* LaunchScreen.storyboard in Resources */,
+				10F4C7601FBDDCF800A5BDEB /* Assets.xcassets in Resources */,
+				10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F4C7671FBDDCF800A5BDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F4C7511FBDDCF800A5BDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F4C75B1FBDDCF800A5BDEB /* ViewController.swift in Sources */,
+				10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F4C7651FBDDCF800A5BDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F4C76E1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F4C76B1FBDDCF900A5BDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F4C7541FBDDCF800A5BDEB /* ios-gurunavi-apikit */;
+			targetProxy = 10F4C76A1FBDDCF900A5BDEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F4C75D1FBDDCF800A5BDEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F4C7621FBDDCF800A5BDEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10F4C7701FBDDCF900A5BDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10F4C7711FBDDCF900A5BDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10F4C7731FBDDCF900A5BDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KE8PEF6922;
+				INFOPLIST_FILE = "ios-gurunavi-apikit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sundaycarpenter.ios-gurunavi-apikit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10F4C7741FBDDCF900A5BDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KE8PEF6922;
+				INFOPLIST_FILE = "ios-gurunavi-apikit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sundaycarpenter.ios-gurunavi-apikit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10F4C7761FBDDCF900A5BDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KE8PEF6922;
+				INFOPLIST_FILE = "ios-gurunavi-apikitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sundaycarpenter.ios-gurunavi-apikitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gurunavi-apikit.app/ios-gurunavi-apikit";
+			};
+			name = Debug;
+		};
+		10F4C7771FBDDCF900A5BDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KE8PEF6922;
+				INFOPLIST_FILE = "ios-gurunavi-apikitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sundaycarpenter.ios-gurunavi-apikitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-gurunavi-apikit.app/ios-gurunavi-apikit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F4C7501FBDDCF800A5BDEB /* Build configuration list for PBXProject "ios-gurunavi-apikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F4C7701FBDDCF900A5BDEB /* Debug */,
+				10F4C7711FBDDCF900A5BDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F4C7721FBDDCF900A5BDEB /* Build configuration list for PBXNativeTarget "ios-gurunavi-apikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F4C7731FBDDCF900A5BDEB /* Debug */,
+				10F4C7741FBDDCF900A5BDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F4C7751FBDDCF900A5BDEB /* Build configuration list for PBXNativeTarget "ios-gurunavi-apikitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F4C7761FBDDCF900A5BDEB /* Debug */,
+				10F4C7771FBDDCF900A5BDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F4C74D1FBDDCF800A5BDEB /* Project object */;
+}
