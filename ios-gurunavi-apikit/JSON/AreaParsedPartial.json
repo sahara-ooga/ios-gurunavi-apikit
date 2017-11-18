@@ -1,0 +1,23 @@
+{
+    "@attributes": {
+        "api_version": "20150630"
+    },
+    "garea_large": [
+                        {
+                        "areacode_l": "AREAL5500",
+                        "areaname_l": "札幌駅・大通・すすきの",
+                        "pref": {
+                            "pref_code": "PREF01",
+                            "pref_name": "北海道"
+                            }
+                        },
+                        {
+                        "areacode_l": "AREAL5522",
+                        "areaname_l": "円山公園・西18丁目・宮の森",
+                        "pref": {
+                            "pref_code": "PREF01",
+                            "pref_name": "北海道"
+                            }
+                        }
+                    ]
+}

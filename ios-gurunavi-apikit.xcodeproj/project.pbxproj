@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10829AF51FBFC4D400C7A507 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF41FBFC4D400C7A507 /* area.json */; };
+		10829AF71FBFC4F900C7A507 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */; };
+		10829AF91FBFC50200C7A507 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF81FBFC50200C7A507 /* Error.json */; };
+		10829AFB1FBFC51400C7A507 /* PrefMaster.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AFA1FBFC51400C7A507 /* PrefMaster.json */; };
+		10829AFD1FBFC53000C7A507 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AFC1FBFC53000C7A507 /* response.json */; };
+		10829AFE1FBFC53000C7A507 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AFC1FBFC53000C7A507 /* response.json */; };
+		10829B041FBFC57C00C7A507 /* RestDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B001FBFC57B00C7A507 /* RestDto.swift */; };
+		10829B051FBFC57C00C7A507 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B011FBFC57B00C7A507 /* Area.swift */; };
+		10829B061FBFC57C00C7A507 /* RestInfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B021FBFC57B00C7A507 /* RestInfoDto.swift */; };
+		10829B071FBFC57C00C7A507 /* Pref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B031FBFC57C00C7A507 /* Pref.swift */; };
+		10829B0D1FBFC58A00C7A507 /* JSONDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B081FBFC58A00C7A507 /* JSONDataParser.swift */; };
+		10829B0E1FBFC58A00C7A507 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B091FBFC58A00C7A507 /* DataParser.swift */; };
+		10829B0F1FBFC58A00C7A507 /* GurunaviAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B0A1FBFC58A00C7A507 /* GurunaviAPI.swift */; };
+		10829B101FBFC58A00C7A507 /* FileOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B0B1FBFC58A00C7A507 /* FileOrganizer.swift */; };
+		10829B111FBFC58A00C7A507 /* GurunaviError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */; };
+		10829B131FBFC5A300C7A507 /* CommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B121FBFC5A300C7A507 /* CommonDefines.swift */; };
 		10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */; };
 		10F4C75B1FBDDCF800A5BDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */; };
 		10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */; };
@@ -28,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10829AF41FBFC4D400C7A507 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsedPartial.json; sourceTree = "<group>"; };
+		10829AF81FBFC50200C7A507 /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
+		10829AFA1FBFC51400C7A507 /* PrefMaster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PrefMaster.json; sourceTree = "<group>"; };
+		10829AFC1FBFC53000C7A507 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
+		10829B001FBFC57B00C7A507 /* RestDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestDto.swift; sourceTree = "<group>"; };
+		10829B011FBFC57B00C7A507 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		10829B021FBFC57B00C7A507 /* RestInfoDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestInfoDto.swift; sourceTree = "<group>"; };
+		10829B031FBFC57C00C7A507 /* Pref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pref.swift; sourceTree = "<group>"; };
+		10829B081FBFC58A00C7A507 /* JSONDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataParser.swift; sourceTree = "<group>"; };
+		10829B091FBFC58A00C7A507 /* DataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		10829B0A1FBFC58A00C7A507 /* GurunaviAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviAPI.swift; sourceTree = "<group>"; };
+		10829B0B1FBFC58A00C7A507 /* FileOrganizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileOrganizer.swift; sourceTree = "<group>"; };
+		10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviError.swift; sourceTree = "<group>"; };
+		10829B121FBFC5A300C7A507 /* CommonDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDefines.swift; sourceTree = "<group>"; };
 		10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gurunavi-apikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +100,9 @@
 		10829AED1FBFC36600C7A507 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				10829AF31FBFC4B200C7A507 /* JSON */,
 				10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */,
+				10829B121FBFC5A300C7A507 /* CommonDefines.swift */,
 				10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */,
 				10F4C7641FBDDCF800A5BDEB /* Info.plist */,
 			);
@@ -96,6 +129,11 @@
 		10829AF01FBFC3DD00C7A507 /* Infra */ = {
 			isa = PBXGroup;
 			children = (
+				10829B091FBFC58A00C7A507 /* DataParser.swift */,
+				10829B0B1FBFC58A00C7A507 /* FileOrganizer.swift */,
+				10829B0A1FBFC58A00C7A507 /* GurunaviAPI.swift */,
+				10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */,
+				10829B081FBFC58A00C7A507 /* JSONDataParser.swift */,
 			);
 			path = Infra;
 			sourceTree = "<group>";
@@ -103,6 +141,10 @@
 		10829AF11FBFC3EA00C7A507 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				10829B011FBFC57B00C7A507 /* Area.swift */,
+				10829B031FBFC57C00C7A507 /* Pref.swift */,
+				10829B001FBFC57B00C7A507 /* RestDto.swift */,
+				10829B021FBFC57B00C7A507 /* RestInfoDto.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +154,26 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		10829AF31FBFC4B200C7A507 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				10829AF41FBFC4D400C7A507 /* area.json */,
+				10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */,
+				10829AF81FBFC50200C7A507 /* Error.json */,
+				10829AFA1FBFC51400C7A507 /* PrefMaster.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		10829AFF1FBFC53F00C7A507 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				10829AFC1FBFC53000C7A507 /* response.json */,
+				10F4C76F1FBDDCF900A5BDEB /* Info.plist */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 		10F4C74C1FBDDCF800A5BDEB = {
@@ -150,8 +212,8 @@
 		10F4C76C1FBDDCF900A5BDEB /* ios-gurunavi-apikitTests */ = {
 			isa = PBXGroup;
 			children = (
+				10829AFF1FBFC53F00C7A507 /* Others */,
 				10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */,
-				10F4C76F1FBDDCF900A5BDEB /* Info.plist */,
 			);
 			path = "ios-gurunavi-apikitTests";
 			sourceTree = "<group>";
@@ -265,8 +327,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10829AF91FBFC50200C7A507 /* Error.json in Resources */,
+				10829AFB1FBFC51400C7A507 /* PrefMaster.json in Resources */,
+				10829AF71FBFC4F900C7A507 /* AreaParsedPartial.json in Resources */,
 				10F4C7631FBDDCF800A5BDEB /* LaunchScreen.storyboard in Resources */,
+				10829AFD1FBFC53000C7A507 /* response.json in Resources */,
 				10F4C7601FBDDCF800A5BDEB /* Assets.xcassets in Resources */,
+				10829AF51FBFC4D400C7A507 /* area.json in Resources */,
 				10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10829AFE1FBFC53000C7A507 /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +464,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10829B071FBFC57C00C7A507 /* Pref.swift in Sources */,
 				10F4C75B1FBDDCF800A5BDEB /* ViewController.swift in Sources */,
+				10829B111FBFC58A00C7A507 /* GurunaviError.swift in Sources */,
+				10829B0E1FBFC58A00C7A507 /* DataParser.swift in Sources */,
+				10829B101FBFC58A00C7A507 /* FileOrganizer.swift in Sources */,
+				10829B041FBFC57C00C7A507 /* RestDto.swift in Sources */,
+				10829B061FBFC57C00C7A507 /* RestInfoDto.swift in Sources */,
+				10829B051FBFC57C00C7A507 /* Area.swift in Sources */,
 				10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */,
+				10829B131FBFC5A300C7A507 /* CommonDefines.swift in Sources */,
+				10829B0F1FBFC58A00C7A507 /* GurunaviAPI.swift in Sources */,
+				10829B0D1FBFC58A00C7A507 /* JSONDataParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

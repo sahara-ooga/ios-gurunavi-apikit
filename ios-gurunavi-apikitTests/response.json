@@ -1,0 +1,267 @@
+{
+    "@attributes": {
+        "api_version": "20150630"
+    },
+    "total_hit_count": "190512",
+    "hit_per_page": "3",
+    "page_offset": "1",
+    "rest": [
+             {
+             "@attributes": {
+             "order": "0"
+             },
+             "id": "gazz107",
+             "update_date": "2017-11-07 02:17:01",
+             "name": "完全個室×肉バル NIKUSYOKU‐ニクショク‐ 新横浜",
+             "name_kana": "カンゼンコシツニクバル ニクショクシンヨコハマ",
+             "latitude": "35.505928",
+             "longitude": "139.618761",
+             "category": "新横浜 完全個室居酒屋",
+             "url": "https:\/\/r.gnavi.co.jp\/a4y1fehe0000\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "url_mobile": "http:\/\/mobile.gnavi.co.jp\/shop\/gazz107\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "coupon_url": {
+             "pc": "https:\/\/r.gnavi.co.jp\/a4y1fehe0000\/coupon\/",
+             "mobile": "http:\/\/mobile.gnavi.co.jp\/shop\/gazz107\/coupon"
+             },
+             "image_url": {
+             "shop_image1": "https:\/\/uds.gnst.jp\/rest\/img\/a4y1fehe0000\/t_003x.jpg",
+             "shop_image2": "https:\/\/uds.gnst.jp\/rest\/img\/a4y1fehe0000\/t_001c.jpg",
+             "qrcode": "https:\/\/c-r.gnst.jp\/tool\/qr\/?id=gazz107&q=6"
+             },
+             "address": "〒222-0033 神奈川県横浜市港北区新横浜2-5-16 たあぶる館8F",
+             "tel": "050-3467-9391",
+             "tel_sub": "03-6380-6679",
+             "fax": [],
+             "opentime": "月～日 16:00～24:00",
+             "holiday": "無",
+             "access": {
+             "line": "ＪＲ",
+             "station": "新横浜駅",
+             "station_exit": [],
+             "walk": "2",
+             "note": []
+             },
+             "parking_lots": [],
+             "pr": {
+             "pr_short": "新横浜駅2分！完全個室×ワイン×肉バル♪ 貸切280名様迄OK！各種宴会,女子会,打ち上げに◎ 和牛や熟成肉のローストビーフを堪能！ 3時間飲み放題付コース3000円～",
+             "pr_long": "NEWOPEN！JR新横浜駅徒歩2分！<BR>扉付個室完備！プライベート空間で寛ぎのお時間を…◎<BR>テーブル\/掘り炬燵\/座敷\/カウンターetc多彩なお席をご用意しております。<BR>▼こだわり食材で彩るバルメニュー▼<BR>厳選和牛や直送鮮魚、季節野菜を使った多彩な料理…<BR>素材の味を活かした旬の本格料理をお届け致します！<BR>－3時間飲み放題付コース－<BR>地鶏の網焼き付！全7品『大山地鶏究極堪能コース』3000円<BR>ブランド黒豚付！全8品『ブランド黒豚堪能コース』4000円<BR>和牛料理ご堪能！全9品『プレミアム和牛コース』 5000円<BR>▼限定クーポン！▼<BR>・OPEN記念！お会計から15％OFF！<BR>・8名様以上のご予約で幹事様1名分無料！<BR>・誕生日\/記念日にデザートプレート無料サービス！<BR>各種宴会,女子会,合コン,誕生日会に◎<BR>横浜アリーナ・日産スタジアム近くでイベント後の打ち上げにも！"
+             },
+             "code": {
+             "areacode": "AREA110",
+             "areaname": "関東",
+             "prefcode": "PREF14",
+             "prefname": "神奈川県",
+             "areacode_s": "AREAS2354",
+             "areaname_s": "新横浜",
+             "category_code_l": [
+                                 "RSFST09000",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_name_l": [
+                                 "居酒屋",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_code_s": [
+                                 "RSFST09004",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_name_s": [
+                                 "居酒屋",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ]
+             },
+             "budget": "3000",
+             "party": "3000",
+             "lunch": [],
+             "credit_card": [],
+             "e_money": [],
+             "flags": {
+             "mobile_site": "1",
+             "mobile_coupon": "1",
+             "pc_coupon": "1"
+             }
+             },
+             {
+             "@attributes": {
+             "order": "1"
+             },
+             "id": "g398515",
+             "update_date": "2017-11-14 14:50:54",
+             "name": "美食米門 品川店",
+             "name_kana": "ビショクマイモン シナガワテン",
+             "latitude": "35.624469",
+             "longitude": "139.743842",
+             "category": "個室 新和食",
+             "url": "https:\/\/r.gnavi.co.jp\/g398515\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "url_mobile": "http:\/\/mobile.gnavi.co.jp\/shop\/g398515\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "coupon_url": {
+             "pc": [],
+             "mobile": []
+             },
+             "image_url": {
+             "shop_image1": "https:\/\/uds.gnst.jp\/rest\/img\/d1g9mms80000\/t_00cc.jpg",
+             "shop_image2": "https:\/\/uds.gnst.jp\/rest\/img\/d1g9mms80000\/t_00cd.jpg",
+             "qrcode": "https:\/\/c-r.gnst.jp\/tool\/qr\/?id=g398515&q=6"
+             },
+             "address": "〒108-0075 東京都港区港南2-16-1 品川イーストワンタワー1F",
+             "tel": "050-3463-2538",
+             "tel_sub": "03-4540-6292",
+             "fax": "03-6718-2086",
+             "opentime": " ランチ：11:30～14:00(L.O.13:30)、ディナー：17:30～23:00(L.O.22:00)",
+             "holiday": "※年末年始  ※年末年始の営業日・営業時間は変わる事がございますので詳細は店舗までお問い合わせ下さい。",
+             "access": {
+             "line": "ＪＲ",
+             "station": "品川駅",
+             "station_exit": [],
+             "walk": "1",
+             "note": []
+             },
+             "parking_lots": [],
+             "pr": {
+             "pr_short": "★ご宴会プラン[厳選美食コース]飲み放題付5000円～ ★歓送迎会に最適◎ ★品川駅徒歩3分♪記念日コース特典付 ★会食・接待・慶事に[個室]2～30名まで",
+             "pr_long": "＜品川駅3分＞贅を尽くした旬の料理と職人技を味わう美食空間がここに・・・<BR>◎歓送迎会のご予約受付中◎<BR><BR>≪ご宴会プラン≫★飲み放題付き宴会コース<BR>美食宴会コース<BR>◆旬の魚介との雪見鍋を味わう 美食宴会コース<BR> 【飲み放題付き】5000円～ ※1日2組限定<BR>≪御接待、御会食、慶事、記念日に≫<BR>◆美食会席 『宴』コース 全7品 4800円<BR>◆接待会席 『匠』コース 全9品 6800円<BR>◆接待会席 『極』コース 全10品 9800円<BR>≪お顔合わせに≫<BR>◆ランチ会食コース 全7品 3500円<BR>◆ランチ祝い膳コース 全7品 6000円<BR>＜店内のご案内＞<BR>【上品な宴会場】３０名様\/【個室】2～4名・5～7名・8～24名様に対応"
+             },
+             "code": {
+             "areacode": "AREA110",
+             "areaname": "関東",
+             "prefcode": "PREF13",
+             "prefname": "東京都",
+             "areacode_s": "AREAS2169",
+             "areaname_s": "品川（アトレ品川・インターシティ方面）",
+             "category_code_l": [
+                                 "RSFST03000",
+                                 "RSFST02000"
+                                 ],
+             "category_name_l": [
+                                 "すし・魚料理・シーフード",
+                                 "日本料理・郷土料理"
+                                 ],
+             "category_code_s": [
+                                 "RSFST03003",
+                                 "RSFST02002"
+                                 ],
+             "category_name_s": [
+                                 "刺身・海鮮料理",
+                                 "会席料理"
+                                 ]
+             },
+             "budget": "5800",
+             "party": "5000",
+             "lunch": "1000",
+             "credit_card": "VISA,MasterCard,ダイナースクラブ,アメリカン・エキスプレス,JCB,NICOS,MUFG",
+             "e_money": [],
+             "flags": {
+             "mobile_site": "1",
+             "mobile_coupon": "0",
+             "pc_coupon": "0"
+             }
+             },
+             {
+             "@attributes": {
+             "order": "2"
+             },
+             "id": "p864017",
+             "update_date": "2017-11-14 12:00:30",
+             "name": "博多もつ鍋 馬肉 九州自慢 ハマボールイアス店",
+             "name_kana": "ハカタモツナベバニクキュウシュウジマン ハマボールイアステン",
+             "latitude": "35.462658",
+             "longitude": "139.620450",
+             "category": "美味しいお酒ともつ鍋",
+             "url": "https:\/\/r.gnavi.co.jp\/p864017\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "url_mobile": "http:\/\/mobile.gnavi.co.jp\/shop\/p864017\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "coupon_url": {
+             "pc": "https:\/\/r.gnavi.co.jp\/p864017\/coupon\/",
+             "mobile": []
+             },
+             "image_url": {
+             "shop_image1": "https:\/\/uds.gnst.jp\/rest\/img\/5yb4u89c0000\/t_00d9.png",
+             "shop_image2": "https:\/\/uds.gnst.jp\/rest\/img\/5yb4u89c0000\/t_00da.jpg",
+             "qrcode": "https:\/\/c-r.gnst.jp\/tool\/qr\/?id=p864017&q=6"
+             },
+             "address": "〒220-0004 神奈川県横浜市西区北幸2-2-1 ハマボールイアス2F",
+             "tel": "050-3463-2623",
+             "tel_sub": "045-326-2090",
+             "fax": "045-326-2090",
+             "opentime": " ランチ：11:30～15:00(L.O.15:00)、居酒屋タイム：11:30～24:00",
+             "holiday": "無",
+             "access": {
+             "line": "ＪＲ",
+             "station": "横浜駅",
+             "station_exit": [],
+             "walk": "5",
+             "note": []
+             },
+             "parking_lots": [],
+             "pr": {
+             "pr_short": "【宴会】プレミアム飲み放題付宴会コース4000円〜 【個室】4～52名様完全個室ご用意しております♪ 【駅近】横浜駅西口ハマボールイアス２Ｆ♪♪",
+             "pr_long": "■昼宴会が大好評11時30分～営業中♪<BR><BR>■ご宴会【忘年会、各種宴会に】おすすめ♪♪<BR>↓↓<BR>【大好評、馬刺しの三種盛り合わせ付きコース】料理１０品飲み放題付４５００円(税込)♪<BR>(日にち限定♪１２月３日～１２月７日はなんと４０００円でご用意♪♪)<BR>①鰤の白子 さつま黒ぽん酢<BR>②揚げパパイヤのポテトサラダ<BR>③お造り三種盛り合わせ -本日のおすすめ-<BR>④日南どり ももむね炭火焼き<BR>⑤蓮根明太はさみ揚げ<BR>⑥自慢のチキン南蛮<BR>⑦自慢の和牛もつ鍋<BR>⑧鍋〆(雑炊、ちゃんぽん麺)<BR>⑨柚子の葛まんじゅう"
+             },
+             "code": {
+             "areacode": "AREA110",
+             "areaname": "関東",
+             "prefcode": "PREF14",
+             "prefname": "神奈川県",
+             "areacode_s": "AREAS2322",
+             "areaname_s": "横浜西口",
+             "category_code_l": [
+                                 "RSFST09000",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_name_l": [
+                                 "居酒屋",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_code_s": [
+                                 "RSFST09004",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_name_s": [
+                                 "居酒屋",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ]
+             },
+             "budget": "3500",
+             "party": "4000",
+             "lunch": "800",
+             "credit_card": "VISA,MasterCard,ダイナースクラブ,アメリカン・エキスプレス,JCB,NICOS,セゾン,MUFG",
+             "e_money": [],
+             "flags": {
+             "mobile_site": "1",
+             "mobile_coupon": "0",
+             "pc_coupon": "1"
+             }
+             }
+             ]
+}
