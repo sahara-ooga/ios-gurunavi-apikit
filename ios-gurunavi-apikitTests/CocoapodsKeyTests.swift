@@ -12,7 +12,7 @@ import Keys
 @testable import ios_gurunavi_apikit
 
 class CocoapodsKeyTests: XCTestCase {
-    let keys = ios_gurunavi_apikitKeys()
+    let keys = Ios_apikit_codable_sampleTestsKeys()
 
     override func setUp() {
         super.setUp()

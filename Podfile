@@ -7,7 +7,7 @@ target 'ios-gurunavi-apikit' do
 
   # Pods for ios-gurunavi-apikit
 	plugin 'cocoapods-keys', {
-        :project => "ios_apikit_codable_sample",
+        :project => "ios-gurunavi-apikit",
         :keys => [
         "accessKey"
     ]}
@@ -19,7 +19,7 @@ target 'ios-gurunavi-apikit' do
     # Pods for testing
 
     plugin 'cocoapods-keys', {
-          :project => "ios_apikit_codable_sampleTests",
+          :project => "ios-gurunavi-apikitTests",
           :keys => [
             "accessKey"
     ]}

@@ -8,7 +8,6 @@
 
 struct JSONFile {
     static let prefMaster = "PrefMaster"
-    static let areaParsed = "AreaParsed"
     static let area = "area"
     static let response = "response"
     static let error = "Error"

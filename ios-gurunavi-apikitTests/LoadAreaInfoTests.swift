@@ -40,8 +40,8 @@ class LoadAreaInfoTests: XCTestCase {
         
     }
     
-    func testLoadAndParseArea() {
-        let json = FileOrganizer.open(json: JSONFile.areaParsed)
+    func testLoadAndArea() {
+        let json = FileOrganizer.open(json: JSONFile.area)
         
         let result = try! JSONDecoder().decode(AreaMaster.self,
                                                from: json)
