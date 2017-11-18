@@ -23,6 +23,11 @@
 		10829B101FBFC58A00C7A507 /* FileOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B0B1FBFC58A00C7A507 /* FileOrganizer.swift */; };
 		10829B111FBFC58A00C7A507 /* GurunaviError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */; };
 		10829B131FBFC5A300C7A507 /* CommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B121FBFC5A300C7A507 /* CommonDefines.swift */; };
+		10829B191FBFC63600C7A507 /* LoadAreaInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B141FBFC63500C7A507 /* LoadAreaInfoTests.swift */; };
+		10829B1A1FBFC63600C7A507 /* CocoapodsKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B151FBFC63500C7A507 /* CocoapodsKeyTests.swift */; };
+		10829B1B1FBFC63600C7A507 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B161FBFC63500C7A507 /* SessionTests.swift */; };
+		10829B1C1FBFC63600C7A507 /* RestInfoDtoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */; };
+		10829B1D1FBFC63600C7A507 /* GurunaviErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */; };
 		10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */; };
 		10F4C75B1FBDDCF800A5BDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */; };
 		10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */; };
@@ -59,6 +64,11 @@
 		10829B0B1FBFC58A00C7A507 /* FileOrganizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileOrganizer.swift; sourceTree = "<group>"; };
 		10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviError.swift; sourceTree = "<group>"; };
 		10829B121FBFC5A300C7A507 /* CommonDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDefines.swift; sourceTree = "<group>"; };
+		10829B141FBFC63500C7A507 /* LoadAreaInfoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadAreaInfoTests.swift; sourceTree = "<group>"; };
+		10829B151FBFC63500C7A507 /* CocoapodsKeyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoapodsKeyTests.swift; sourceTree = "<group>"; };
+		10829B161FBFC63500C7A507 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestInfoDtoTest.swift; sourceTree = "<group>"; };
+		10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviErrorTests.swift; sourceTree = "<group>"; };
 		10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gurunavi-apikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -214,6 +224,11 @@
 			children = (
 				10829AFF1FBFC53F00C7A507 /* Others */,
 				10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */,
+				10829B151FBFC63500C7A507 /* CocoapodsKeyTests.swift */,
+				10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */,
+				10829B141FBFC63500C7A507 /* LoadAreaInfoTests.swift */,
+				10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */,
+				10829B161FBFC63500C7A507 /* SessionTests.swift */,
 			);
 			path = "ios-gurunavi-apikitTests";
 			sourceTree = "<group>";
@@ -483,7 +498,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10829B1B1FBFC63600C7A507 /* SessionTests.swift in Sources */,
+				10829B1D1FBFC63600C7A507 /* GurunaviErrorTests.swift in Sources */,
+				10829B191FBFC63600C7A507 /* LoadAreaInfoTests.swift in Sources */,
+				10829B1C1FBFC63600C7A507 /* RestInfoDtoTest.swift in Sources */,
 				10F4C76E1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift in Sources */,
+				10829B1A1FBFC63600C7A507 /* CocoapodsKeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
