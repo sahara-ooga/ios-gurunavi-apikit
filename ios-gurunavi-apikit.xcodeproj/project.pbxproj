@@ -66,6 +66,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10829AED1FBFC36600C7A507 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */,
+				10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */,
+				10F4C7641FBDDCF800A5BDEB /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		10829AEE1FBFC3A900C7A507 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */,
+				10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		10829AEF1FBFC3BE00C7A507 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		10829AF01FBFC3DD00C7A507 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		10829AF11FBFC3EA00C7A507 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10829AF21FBFC3F900C7A507 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		10F4C74C1FBDDCF800A5BDEB = {
 			isa = PBXGroup;
 			children = (
@@ -89,12 +137,12 @@
 		10F4C7571FBDDCF800A5BDEB /* ios-gurunavi-apikit */ = {
 			isa = PBXGroup;
 			children = (
-				10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */,
-				10F4C75A1FBDDCF800A5BDEB /* ViewController.swift */,
-				10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */,
-				10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */,
-				10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */,
-				10F4C7641FBDDCF800A5BDEB /* Info.plist */,
+				10829AF21FBFC3F900C7A507 /* View */,
+				10829AF11FBFC3EA00C7A507 /* Model */,
+				10829AF01FBFC3DD00C7A507 /* Infra */,
+				10829AEF1FBFC3BE00C7A507 /* Controller */,
+				10829AEE1FBFC3A900C7A507 /* ViewController */,
+				10829AED1FBFC36600C7A507 /* Others */,
 			);
 			path = "ios-gurunavi-apikit";
 			sourceTree = "<group>";
