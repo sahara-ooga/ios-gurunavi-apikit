@@ -13,6 +13,8 @@
 		10F4C7601FBDDCF800A5BDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */; };
 		10F4C7631FBDDCF800A5BDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C7611FBDDCF800A5BDEB /* LaunchScreen.storyboard */; };
 		10F4C76E1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */; };
+		473D7397098F4637742A8F28 /* Pods_ios_gurunavi_apikit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E010062ED3FFC0D48045C7 /* Pods_ios_gurunavi_apikit.framework */; };
+		F0B57D6D1A54B7FF5064EB40 /* Pods_ios_gurunavi_apikitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174E6CC1B584B71B514053E0 /* Pods_ios_gurunavi_apikitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		10F4C7691FBDDCF900A5BDEB /* ios-gurunavi-apikitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-gurunavi-apikitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_gurunavi_apikitTests.swift; sourceTree = "<group>"; };
 		10F4C76F1FBDDCF900A5BDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		157B48076DEDAEF81A6B181C /* Pods-ios-gurunavi-apikitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gurunavi-apikitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gurunavi-apikitTests/Pods-ios-gurunavi-apikitTests.release.xcconfig"; sourceTree = "<group>"; };
+		174E6CC1B584B71B514053E0 /* Pods_ios_gurunavi_apikitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_gurunavi_apikitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E010062ED3FFC0D48045C7 /* Pods_ios_gurunavi_apikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_gurunavi_apikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BA7337C69E0A04902954BF /* Pods-ios-gurunavi-apikit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gurunavi-apikit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gurunavi-apikit/Pods-ios-gurunavi-apikit.release.xcconfig"; sourceTree = "<group>"; };
+		95B4A6FC1871F961A5152FB6 /* Pods-ios-gurunavi-apikit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gurunavi-apikit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gurunavi-apikit/Pods-ios-gurunavi-apikit.debug.xcconfig"; sourceTree = "<group>"; };
+		C3764293FFD6560E43794811 /* Pods-ios-gurunavi-apikitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-gurunavi-apikitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-gurunavi-apikitTests/Pods-ios-gurunavi-apikitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473D7397098F4637742A8F28 /* Pods_ios_gurunavi_apikit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B57D6D1A54B7FF5064EB40 /* Pods_ios_gurunavi_apikitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				10F4C7571FBDDCF800A5BDEB /* ios-gurunavi-apikit */,
 				10F4C76C1FBDDCF900A5BDEB /* ios-gurunavi-apikitTests */,
 				10F4C7561FBDDCF800A5BDEB /* Products */,
+				F298703BFDD715C5D4C4F29C /* Pods */,
+				627ECF2673D8E22FC453C971 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = "ios-gurunavi-apikitTests";
 			sourceTree = "<group>";
 		};
+		627ECF2673D8E22FC453C971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E010062ED3FFC0D48045C7 /* Pods_ios_gurunavi_apikit.framework */,
+				174E6CC1B584B71B514053E0 /* Pods_ios_gurunavi_apikitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F298703BFDD715C5D4C4F29C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B4A6FC1871F961A5152FB6 /* Pods-ios-gurunavi-apikit.debug.xcconfig */,
+				62BA7337C69E0A04902954BF /* Pods-ios-gurunavi-apikit.release.xcconfig */,
+				C3764293FFD6560E43794811 /* Pods-ios-gurunavi-apikitTests.debug.xcconfig */,
+				157B48076DEDAEF81A6B181C /* Pods-ios-gurunavi-apikitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F4C7721FBDDCF900A5BDEB /* Build configuration list for PBXNativeTarget "ios-gurunavi-apikit" */;
 			buildPhases = (
+				BC2D2201CDF35C71FA4ECB59 /* [CP] Check Pods Manifest.lock */,
 				10F4C7511FBDDCF800A5BDEB /* Sources */,
 				10F4C7521FBDDCF800A5BDEB /* Frameworks */,
 				10F4C7531FBDDCF800A5BDEB /* Resources */,
+				8D97428591130F6C6DF2F390 /* [CP] Embed Pods Frameworks */,
+				1F4E33288587D9CBB4A0EE22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F4C7751FBDDCF900A5BDEB /* Build configuration list for PBXNativeTarget "ios-gurunavi-apikitTests" */;
 			buildPhases = (
+				602720F4AB955021010B5A32 /* [CP] Check Pods Manifest.lock */,
 				10F4C7651FBDDCF800A5BDEB /* Sources */,
 				10F4C7661FBDDCF800A5BDEB /* Frameworks */,
 				10F4C7671FBDDCF800A5BDEB /* Resources */,
+				82F67BEF58E857A937DCF505 /* [CP] Embed Pods Frameworks */,
+				A2C4E65719BE0104A0C34F76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4E33288587D9CBB4A0EE22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gurunavi-apikit/Pods-ios-gurunavi-apikit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602720F4AB955021010B5A32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-gurunavi-apikitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F67BEF58E857A937DCF505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-gurunavi-apikitTests/Pods-ios-gurunavi-apikitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gurunavi-apikitTests/Pods-ios-gurunavi-apikitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D97428591130F6C6DF2F390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-gurunavi-apikit/Pods-ios-gurunavi-apikit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gurunavi-apikit/Pods-ios-gurunavi-apikit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C4E65719BE0104A0C34F76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-gurunavi-apikitTests/Pods-ios-gurunavi-apikitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2D2201CDF35C71FA4ECB59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-gurunavi-apikit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10F4C7511FBDDCF800A5BDEB /* Sources */ = {
@@ -351,6 +500,7 @@
 		};
 		10F4C7731FBDDCF900A5BDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B4A6FC1871F961A5152FB6 /* Pods-ios-gurunavi-apikit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +516,7 @@
 		};
 		10F4C7741FBDDCF900A5BDEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BA7337C69E0A04902954BF /* Pods-ios-gurunavi-apikit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +532,7 @@
 		};
 		10F4C7761FBDDCF900A5BDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3764293FFD6560E43794811 /* Pods-ios-gurunavi-apikitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +550,7 @@
 		};
 		10F4C7771FBDDCF900A5BDEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157B48076DEDAEF81A6B181C /* Pods-ios-gurunavi-apikitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
