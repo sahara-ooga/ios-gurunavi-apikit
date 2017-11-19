@@ -55,6 +55,34 @@ extension PrefVC:UITableViewDataSource{
 
 extension PrefVC:UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
+        
+        //すべてのエリアの中から、選択した県のエリアを抽出する
+        let areaInfo = loadAreaInfo(indexPath)
+        moveToAreaVC(with: areaInfo)
+    }
+    
+    func loadAreaInfo(_ indexPath:IndexPath)->AreaInfo{
+        let pref = prefs[indexPath.row]
+        
+        let json = FileOrganizer.open(json: JSONFile.area)
+        let areaMaster = try! JSONDecoder().decode(AreaMaster.self,
+                                               from: json)
+        let selectedAreas = areaMaster.areas.filter({$0.pref.prefCode == pref.prefCode})
+        return AreaInfo(areas: selectedAreas)
+    }
+    
+    func moveToAreaVC(with areaInfo:AreaInfo){
+//        let nib = UINib(nibName: String(describing: AreaVC.self),
+//                        bundle: nil)
+//
+//        guard let areaVC = nib.instantiate(withOwner: nil,
+//                                           options: nil)
+//            .first as? AreaVC else {
+//            fatalError()
+//        }
+//
+        let areaVC = AreaVC.init(nibName: String(describing: AreaVC.self), bundle: nil)
+        areaVC.areaInfo = areaInfo
+        self.navigationController?.pushViewController(areaVC, animated: true)
     }
 }

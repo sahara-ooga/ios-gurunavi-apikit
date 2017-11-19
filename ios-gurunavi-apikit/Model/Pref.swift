@@ -18,6 +18,7 @@ struct Pref:Codable {
     }
 }
 
+
 struct PrefMaster:Codable {
     let prefs:[Pref]
     

@@ -28,6 +28,9 @@
 		10829B1B1FBFC63600C7A507 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B161FBFC63500C7A507 /* SessionTests.swift */; };
 		10829B1C1FBFC63600C7A507 /* RestInfoDtoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */; };
 		10829B1D1FBFC63600C7A507 /* GurunaviErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */; };
+		10829B201FBFD02700C7A507 /* AreaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B1E1FBFD02700C7A507 /* AreaVC.swift */; };
+		10829B211FBFD02700C7A507 /* AreaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10829B1F1FBFD02700C7A507 /* AreaVC.xib */; };
+		10829B231FBFD07400C7A507 /* AreaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B221FBFD07400C7A507 /* AreaInfo.swift */; };
 		10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */; };
 		10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */; };
 		10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */; };
@@ -69,6 +72,9 @@
 		10829B161FBFC63500C7A507 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
 		10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestInfoDtoTest.swift; sourceTree = "<group>"; };
 		10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviErrorTests.swift; sourceTree = "<group>"; };
+		10829B1E1FBFD02700C7A507 /* AreaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AreaVC.swift; path = ViewController/AreaVC.swift; sourceTree = "<group>"; };
+		10829B1F1FBFD02700C7A507 /* AreaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AreaVC.xib; path = ViewController/AreaVC.xib; sourceTree = "<group>"; };
+		10829B221FBFD07400C7A507 /* AreaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaInfo.swift; sourceTree = "<group>"; };
 		10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gurunavi-apikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefVC.swift; sourceTree = "<group>"; };
@@ -124,6 +130,8 @@
 			children = (
 				10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */,
 				10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */,
+				10829B1E1FBFD02700C7A507 /* AreaVC.swift */,
+				10829B1F1FBFD02700C7A507 /* AreaVC.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 				10829B031FBFC57C00C7A507 /* Pref.swift */,
 				10829B001FBFC57B00C7A507 /* RestDto.swift */,
 				10829B021FBFC57B00C7A507 /* RestInfoDto.swift */,
+				10829B221FBFD07400C7A507 /* AreaInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -349,6 +358,7 @@
 				10829AFD1FBFC53000C7A507 /* response.json in Resources */,
 				10F4C7601FBDDCF800A5BDEB /* Assets.xcassets in Resources */,
 				10829AF51FBFC4D400C7A507 /* area.json in Resources */,
+				10829B211FBFD02700C7A507 /* AreaVC.xib in Resources */,
 				10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,7 +497,9 @@
 				10829B041FBFC57C00C7A507 /* RestDto.swift in Sources */,
 				10829B061FBFC57C00C7A507 /* RestInfoDto.swift in Sources */,
 				10829B051FBFC57C00C7A507 /* Area.swift in Sources */,
+				10829B201FBFD02700C7A507 /* AreaVC.swift in Sources */,
 				10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */,
+				10829B231FBFD07400C7A507 /* AreaInfo.swift in Sources */,
 				10829B131FBFC5A300C7A507 /* CommonDefines.swift in Sources */,
 				10829B0F1FBFC58A00C7A507 /* GurunaviAPI.swift in Sources */,
 				10829B0D1FBFC58A00C7A507 /* JSONDataParser.swift in Sources */,
