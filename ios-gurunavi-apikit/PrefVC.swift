@@ -82,15 +82,6 @@ extension PrefVC:UITableViewDelegate{
     }
     
     func moveToAreaVC(with areaInfo:AreaInfo){
-//        let nib = UINib(nibName: String(describing: AreaVC.self),
-//                        bundle: nil)
-//
-//        guard let areaVC = nib.instantiate(withOwner: nil,
-//                                           options: nil)
-//            .first as? AreaVC else {
-//            fatalError()
-//        }
-//
         let areaVC = AreaVC.init(nibName: String(describing: AreaVC.self), bundle: nil)
         areaVC.areaInfo = areaInfo
         self.navigationController?.pushViewController(areaVC, animated: true)
