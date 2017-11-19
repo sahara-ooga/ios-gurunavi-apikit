@@ -81,7 +81,7 @@ extension AreaVC:UITableViewDelegate{
     }
     
     func loadRestsInfo(_ indexPath:IndexPath){
-        //非同期でエリアのレストラン情報を取ってくる
+        //エリアのレストラン情報を取ってくる処理の開始
         
 //        let pref = prefs[indexPath.row]
 //
@@ -90,6 +90,8 @@ extension AreaVC:UITableViewDelegate{
 //                                                   from: json)
 //        let selectedAreas = areaMaster.areas.filter({$0.pref.prefCode == pref.prefCode})
 //        return AreaInfo(areas: selectedAreas)
+        
+        
     }
     
     func moveToAreaVC(){

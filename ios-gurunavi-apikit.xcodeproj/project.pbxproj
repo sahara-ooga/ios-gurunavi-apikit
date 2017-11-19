@@ -205,13 +205,13 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
-		10829AFF1FBFC53F00C7A507 /* Others */ = {
+		10829AFF1FBFC53F00C7A507 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				10829AFC1FBFC53000C7A507 /* response.json */,
 				10F4C76F1FBDDCF900A5BDEB /* Info.plist */,
 			);
-			name = Others;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		10F4C74C1FBDDCF800A5BDEB = {
@@ -249,7 +249,7 @@
 		10F4C76C1FBDDCF900A5BDEB /* ios-gurunavi-apikitTests */ = {
 			isa = PBXGroup;
 			children = (
-				10829AFF1FBFC53F00C7A507 /* Others */,
+				10829AFF1FBFC53F00C7A507 /* Resources */,
 				10F4C76D1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift */,
 				10829B151FBFC63500C7A507 /* CocoapodsKeyTests.swift */,
 				10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */,
