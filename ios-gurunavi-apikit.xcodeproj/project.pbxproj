@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		104E60131FC1476100F00F3C /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60111FC1476100F00F3C /* AreaCell.swift */; };
 		104E60141FC1476100F00F3C /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E60121FC1476100F00F3C /* AreaCell.xib */; };
+		104E60171FC1507800F00F3C /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */; };
+		104E60181FC1507800F00F3C /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E60161FC1507800F00F3C /* RestaurantTableViewCell.xib */; };
 		10829AF51FBFC4D400C7A507 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF41FBFC4D400C7A507 /* area.json */; };
 		10829AF71FBFC4F900C7A507 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */; };
 		10829AF91FBFC50200C7A507 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF81FBFC50200C7A507 /* Error.json */; };
@@ -56,6 +58,8 @@
 /* Begin PBXFileReference section */
 		104E60111FC1476100F00F3C /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
 		104E60121FC1476100F00F3C /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
+		104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		104E60161FC1507800F00F3C /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
 		10829AF41FBFC4D400C7A507 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
 		10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsedPartial.json; sourceTree = "<group>"; };
 		10829AF81FBFC50200C7A507 /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 		10829AF21FBFC3F900C7A507 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */,
+				104E60161FC1507800F00F3C /* RestaurantTableViewCell.xib */,
 				104E60111FC1476100F00F3C /* AreaCell.swift */,
 				104E60121FC1476100F00F3C /* AreaCell.xib */,
 			);
@@ -364,6 +370,7 @@
 				10F4C7631FBDDCF800A5BDEB /* LaunchScreen.storyboard in Resources */,
 				10829AFD1FBFC53000C7A507 /* response.json in Resources */,
 				10F4C7601FBDDCF800A5BDEB /* Assets.xcassets in Resources */,
+				104E60181FC1507800F00F3C /* RestaurantTableViewCell.xib in Resources */,
 				10829AF51FBFC4D400C7A507 /* area.json in Resources */,
 				10829B211FBFD02700C7A507 /* AreaVC.xib in Resources */,
 				10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */,
@@ -508,6 +515,7 @@
 				10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */,
 				10829B111FBFC58A00C7A507 /* GurunaviError.swift in Sources */,
 				10829B0E1FBFC58A00C7A507 /* DataParser.swift in Sources */,
+				104E60171FC1507800F00F3C /* RestaurantTableViewCell.swift in Sources */,
 				104E60131FC1476100F00F3C /* AreaCell.swift in Sources */,
 				10829B101FBFC58A00C7A507 /* FileOrganizer.swift in Sources */,
 				10829B041FBFC57C00C7A507 /* RestDto.swift in Sources */,
