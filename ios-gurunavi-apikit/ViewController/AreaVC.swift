@@ -52,6 +52,7 @@ extension AreaVC:UITableViewDelegate{
     }
     
     func moveToRestsVC(at area:Area){
+        appDelegate().restsViewDataProvider.selectedArea = area
         let restsVC = RestsVC(nibName: String(describing: RestsVC.self), bundle: nil)
         self.navigationController?.pushViewController(restsVC, animated: true)
     }

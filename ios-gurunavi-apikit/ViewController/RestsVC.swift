@@ -17,6 +17,22 @@ class RestsVC: UIViewController {
 
         restsTableView.registarNib(RestaurantTableViewCell.self)
         restsTableView.dataSource = appDelegate().restsViewDataProvider
+        
+        //load rest info
+        appDelegate().apiManager.fetchRestInfo(at: appDelegate().restsViewDataProvider.selectedArea!,
+                                               page: 1){[weak self] result in
+                                                DispatchQueue.main.async {
+                                                    switch result{
+                                                    case .success(let response):
+                                                        self?.appDelegate().restsViewDataProvider.add(response.rests)
+                                                        self?.restsTableView.reloadData()
+                                                        
+                                                    case .failure(let error):
+                                                        print("error>>>>\(error)")
+                                                    }
+                                                }
+                                                
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,3 +44,9 @@ class RestsVC: UIViewController {
 
 extension RestsVC:AppDelegateCallable{}
 
+extension RestsVC:UITableViewDelegate{
+    func tableView(_ tableView: UITableView,
+                   heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 280
+    }
+}

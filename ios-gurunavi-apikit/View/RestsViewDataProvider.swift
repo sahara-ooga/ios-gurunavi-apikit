@@ -10,6 +10,7 @@ import UIKit
 
 class RestsViewDataProvider: NSObject,UITableViewDataSource{
     private var rests = [RestDto]()
+    var selectedArea:Area?
     
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {

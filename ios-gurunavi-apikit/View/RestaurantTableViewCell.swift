@@ -30,6 +30,15 @@ class RestaurantTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    override func prepareForReuse() {
+        nameLabel.text = ""
+        nearestStationLabel.text = ""
+        addressLabel.text = ""
+        telNumLabel.text = ""
+        budgetLabel.text = ""
+        storeImageView.image = nil
+    }
+    
     func setAppearance(as restaurant:RestDto) {
         
         //ラベルの設定

@@ -44,8 +44,8 @@ struct RestDto:Codable{
     let tel : String
     
     struct Access:Codable {
-        let line:String
-        let station:String
+        let line:String?
+        let station:String?
         let stationExit:String?
         let walk:String?
         let note:String?
@@ -61,8 +61,8 @@ struct RestDto:Codable{
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKeys.self)
             
-            line = try container.decode(String.self, forKey: .line)
-            station = try container.decode(String.self, forKey: .station)    //{}が返って失敗する場合,nilが返る
+            line = try? container.decode(String.self, forKey: .line)
+            station = try? container.decode(String.self, forKey: .station)
             stationExit = try? container.decode(String.self, forKey: .stationExit)
             walk = try? container.decode(String.self, forKey: .walk)
             note = try? container.decode(String.self, forKey: .note)
@@ -98,7 +98,15 @@ struct RestDto:Codable{
 //最寄り駅を取得
 extension RestDto.Access{
     var nearestStation:String{
-        var string = line + station
+        var string = ""
+        
+        if let line = self.line{
+            string = line
+        }
+        
+        if let station = self.station {
+            string += station
+        }
         
         if let exit = stationExit{
             string += exit

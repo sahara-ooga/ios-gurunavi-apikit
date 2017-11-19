@@ -22,6 +22,10 @@ class AreaCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    override func prepareForReuse() {
+        areaNameLabel.text = ""
+    }
+    
     func setCell(areaName:String) {
         areaNameLabel.text = areaName
     }
