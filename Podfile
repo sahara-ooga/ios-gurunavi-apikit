@@ -13,7 +13,8 @@ target 'ios-gurunavi-apikit' do
     ]}
 
     pod 'APIKit', '~> 3.1'
-    
+    pod 'AlamofireImage'
+
   target 'ios-gurunavi-apikitTests' do
     inherit! :search_paths
     # Pods for testing
@@ -25,7 +26,8 @@ target 'ios-gurunavi-apikit' do
     ]}
         
     pod 'APIKit', '~> 3.1'
-        
+    pod 'AlamofireImage'
+
   end
 
 end
