@@ -34,17 +34,6 @@ class AreaVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 
@@ -83,5 +72,28 @@ extension AreaVC:UITableViewDataSource{
 }
 
 extension AreaVC:UITableViewDelegate{
+    func tableView(_ tableView: UITableView,
+                   didSelectRowAt indexPath: IndexPath) {
+        
+        //すべてのエリアの中から、選択した県のエリアを抽出する
+        loadRestsInfo(indexPath)
+        moveToAreaVC()
+    }
     
+    func loadRestsInfo(_ indexPath:IndexPath){
+        //非同期でエリアのレストラン情報を取ってくる
+        
+//        let pref = prefs[indexPath.row]
+//
+//        let json = FileOrganizer.open(json: JSONFile.area)
+//        let areaMaster = try! JSONDecoder().decode(AreaMaster.self,
+//                                                   from: json)
+//        let selectedAreas = areaMaster.areas.filter({$0.pref.prefCode == pref.prefCode})
+//        return AreaInfo(areas: selectedAreas)
+    }
+    
+    func moveToAreaVC(){
+        let restsVC = RestsVC.init(nibName: String(describing: RestsVC.self), bundle: nil)
+        self.navigationController?.pushViewController(restsVC, animated: true)
+    }
 }

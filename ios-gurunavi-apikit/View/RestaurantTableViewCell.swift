@@ -30,7 +30,7 @@ class RestaurantTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setAppearance(restaurant:RestDto) {
+    func setAppearance(as restaurant:RestDto) {
         
         //ラベルの設定
         nameLabel.text = restaurant.name
