@@ -64,7 +64,8 @@ extension PrefVC:UITableViewDataSource{
 }
 
 extension PrefVC:UITableViewDelegate{
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView,
+                   didSelectRowAt indexPath: IndexPath) {
         
         //すべてのエリアの中から、選択した県のエリアを抽出する
         let areaInfo = loadAreaInfo(indexPath)
@@ -83,7 +84,9 @@ extension PrefVC:UITableViewDelegate{
     
     func moveToAreaVC(with areaInfo:AreaInfo){
         let areaVC = AreaVC.init(nibName: String(describing: AreaVC.self), bundle: nil)
-        areaVC.areaInfo = areaInfo
+        appDelegate().areaViewDataProvider.areaInfo = areaInfo
         self.navigationController?.pushViewController(areaVC, animated: true)
     }
 }
+
+extension PrefVC:AppDelegateCallable{}

@@ -10,14 +10,11 @@ import UIKit
 
 class AreaVC: UIViewController {
 
-    var areaInfo:AreaInfo! = nil
     @IBOutlet weak var areaTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        registerNibs()
-        
-        // Do any additional setup after loading the view.
+        prepareTableView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,68 +31,30 @@ class AreaVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func prepareTableView() {
+        areaTableView.registarNib(AreaCell.self)
+        areaTableView.dataSource = appDelegate().areaViewDataProvider
+    }
 
 }
 
-extension AreaVC:UITableViewDataSource{
-    func tableView(_ tableView: UITableView,
-                   numberOfRowsInSection section: Int) -> Int {
-        return areaInfo.areas.count
-    }
-    
-    func tableView(_ tableView: UITableView,
-                   cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = areaTableView
-            .dequeueReusableCell(withIdentifier: String(describing:AreaCell.self)) as? AreaCell else {
-                
-            let nib = UINib(nibName: String(describing: AreaCell.self), bundle: nil)
-            
-            guard let areaCell = nib.instantiate(withOwner: nil, options: nil).first as? AreaCell else {
-                fatalError()
-            }
-            areaCell.setCell(areaName: areaInfo.areas[indexPath.row].areaName)
-            return areaCell
-        }
-        
-        cell.setCell(areaName: areaInfo.areas[indexPath.row].areaName)
-        
-        return cell
-    }
-    
-    func registerNibs() {
-        self.areaTableView.register(UINib.init(nibName: String(describing: AreaCell.self),
-                                           bundle: nil),
-                                forCellReuseIdentifier: String(describing: AreaCell.self))
-    }
-    
-    
-}
+
 
 extension AreaVC:UITableViewDelegate{
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath: IndexPath) {
         
         //すべてのエリアの中から、選択した県のエリアを抽出する
-        loadRestsInfo(indexPath)
-        moveToRestsVC()
-    }
-    
-    func loadRestsInfo(_ indexPath:IndexPath){
-        //エリアのレストラン情報を取ってくる処理の開始
-        
-//        let pref = prefs[indexPath.row]
-//
-//        let json = FileOrganizer.open(json: JSONFile.area)
-//        let areaMaster = try! JSONDecoder().decode(AreaMaster.self,
-//                                                   from: json)
-//        let selectedAreas = areaMaster.areas.filter({$0.pref.prefCode == pref.prefCode})
-//        return AreaInfo(areas: selectedAreas)
-        
+        let selectedArea = appDelegate().areaViewDataProvider.areaInfo.areas[indexPath.row]
+        moveToRestsVC(at: selectedArea)
         
     }
     
-    func moveToRestsVC(){
-        let restsVC = RestsVC.init(nibName: String(describing: RestsVC.self), bundle: nil)
+    func moveToRestsVC(at area:Area){
+        let restsVC = RestsVC(nibName: String(describing: RestsVC.self), bundle: nil)
         self.navigationController?.pushViewController(restsVC, animated: true)
     }
 }
+
+extension AreaVC:AppDelegateCallable{}

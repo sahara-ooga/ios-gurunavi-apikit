@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10021B6D1FC1CF70005DC4A4 /* AreaViewDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B6C1FC1CF70005DC4A4 /* AreaViewDataProvider.swift */; };
+		10021B6F1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B6E1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift */; };
+		10021B711FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B701FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift */; };
+		10021B731FC1D723005DC4A4 /* AppDelegateCallable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B721FC1D723005DC4A4 /* AppDelegateCallable.swift */; };
 		104E60131FC1476100F00F3C /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60111FC1476100F00F3C /* AreaCell.swift */; };
 		104E60141FC1476100F00F3C /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E60121FC1476100F00F3C /* AreaCell.xib */; };
 		104E60171FC1507800F00F3C /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */; };
@@ -60,6 +64,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10021B6C1FC1CF70005DC4A4 /* AreaViewDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewDataProvider.swift; sourceTree = "<group>"; };
+		10021B6E1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestsViewDataProvider.swift; sourceTree = "<group>"; };
+		10021B701FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+RegisterNib.swift"; path = "Others/UITableView+RegisterNib.swift"; sourceTree = "<group>"; };
+		10021B721FC1D723005DC4A4 /* AppDelegateCallable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegateCallable.swift; path = Others/AppDelegateCallable.swift; sourceTree = "<group>"; };
 		104E60111FC1476100F00F3C /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
 		104E60121FC1476100F00F3C /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
 		104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
@@ -137,6 +145,8 @@
 				10829B121FBFC5A300C7A507 /* CommonDefines.swift */,
 				10F4C75F1FBDDCF800A5BDEB /* Assets.xcassets */,
 				10F4C7641FBDDCF800A5BDEB /* Info.plist */,
+				10021B701FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift */,
+				10021B721FC1D723005DC4A4 /* AppDelegateCallable.swift */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -191,6 +201,8 @@
 		10829AF21FBFC3F900C7A507 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				10021B6C1FC1CF70005DC4A4 /* AreaViewDataProvider.swift */,
+				10021B6E1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift */,
 				104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */,
 				104E60161FC1507800F00F3C /* RestaurantTableViewCell.xib */,
 				104E60111FC1476100F00F3C /* AreaCell.swift */,
@@ -526,6 +538,7 @@
 			files = (
 				10829B071FBFC57C00C7A507 /* Pref.swift in Sources */,
 				10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */,
+				10021B731FC1D723005DC4A4 /* AppDelegateCallable.swift in Sources */,
 				10829B111FBFC58A00C7A507 /* GurunaviError.swift in Sources */,
 				10829B0E1FBFC58A00C7A507 /* DataParser.swift in Sources */,
 				104E60171FC1507800F00F3C /* RestaurantTableViewCell.swift in Sources */,
@@ -534,7 +547,9 @@
 				10829B041FBFC57C00C7A507 /* RestDto.swift in Sources */,
 				10829B061FBFC57C00C7A507 /* RestInfoDto.swift in Sources */,
 				10829B051FBFC57C00C7A507 /* Area.swift in Sources */,
+				10021B711FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift in Sources */,
 				10829B201FBFD02700C7A507 /* AreaVC.swift in Sources */,
+				10021B6D1FC1CF70005DC4A4 /* AreaViewDataProvider.swift in Sources */,
 				1059CAF31FC17088002C6B04 /* GurunaviAPIManager.swift in Sources */,
 				10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */,
 				10829B231FBFD07400C7A507 /* AreaInfo.swift in Sources */,
@@ -542,6 +557,7 @@
 				10829B131FBFC5A300C7A507 /* CommonDefines.swift in Sources */,
 				10829B0F1FBFC58A00C7A507 /* GurunaviAPI.swift in Sources */,
 				10829B0D1FBFC58A00C7A507 /* JSONDataParser.swift in Sources */,
+				10021B6F1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
