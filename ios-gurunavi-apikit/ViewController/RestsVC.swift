@@ -11,12 +11,13 @@ import UIKit
 class RestsVC: UIViewController {
 
     @IBOutlet weak var restsTableView: UITableView!
-    var rests = [RestDto]()
+    private var rests = [RestDto]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        registarNib(RestaurantTableViewCell.self, tableView: restsTableView)
+        registarNib(RestaurantTableViewCell.self,
+                    tableView: restsTableView)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +25,41 @@ class RestsVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+// MARK: - Manage Rest Data
+extension RestsVC{
+    func add(_ rests:[RestDto]) {
+        self.rests += rests
+    }
+    
+    func rest(at index:Int) -> RestDto? {
+        guard isAppropriate(index) else {
+            return nil
+        }
+        
+        return rests[index]
+    }
+    
+    func removeRest(at index:Int) {
+        guard isAppropriate(index) else {
+            return
+        }
+        
+        self.rests.remove(at: index)
+    }
+    
+    func removeAllRests() {
+        self.rests.removeAll()
+    }
+    
+    func isAppropriate(_ index:Int) -> Bool {
+        if index >= 0 && index < self.rests.count {
+            return true
+        }
+        
+        return false
+    }
 }
 
 extension UIViewController{
