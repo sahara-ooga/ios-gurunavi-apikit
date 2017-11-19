@@ -153,8 +153,8 @@
 		10829AEF1FBFC3BE00C7A507 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				10829AEE1FBFC3A900C7A507 /* ViewController */,
 				10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */,
+				10829AEE1FBFC3A900C7A507 /* ViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
