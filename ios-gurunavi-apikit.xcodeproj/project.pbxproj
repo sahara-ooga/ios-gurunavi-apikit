@@ -153,6 +153,7 @@
 		10829AEF1FBFC3BE00C7A507 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				10829AEE1FBFC3A900C7A507 /* ViewController */,
 				10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */,
 			);
 			name = Controller;
@@ -240,7 +241,6 @@
 				10829AF11FBFC3EA00C7A507 /* Model */,
 				10829AF01FBFC3DD00C7A507 /* Infra */,
 				10829AEF1FBFC3BE00C7A507 /* Controller */,
-				10829AEE1FBFC3A900C7A507 /* ViewController */,
 				10829AED1FBFC36600C7A507 /* Others */,
 			);
 			path = "ios-gurunavi-apikit";
