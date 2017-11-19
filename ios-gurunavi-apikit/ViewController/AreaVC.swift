@@ -53,6 +53,10 @@ extension AreaVC:UITableViewDelegate{
     
     func moveToRestsVC(at area:Area){
         appDelegate().restsViewDataProvider.selectedArea = area
+        
+        //You must remove previous area data
+        appDelegate().restsViewDataProvider.removeAllRests()
+        
         let restsVC = RestsVC(nibName: String(describing: RestsVC.self), bundle: nil)
         self.navigationController?.pushViewController(restsVC, animated: true)
     }
