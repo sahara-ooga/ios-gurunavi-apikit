@@ -24,6 +24,16 @@ class PrefVC: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        //navigation bar で戻ってきた時に、tableViewの選択を解除
+        //https://qiita.com/AcaiBowl/items/8f71ca67da4c6f4b78d2
+        if let indexPathForSelectedRow = prefTableView.indexPathForSelectedRow{
+            prefTableView.deselectRow(at: indexPathForSelectedRow, animated: true)
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
