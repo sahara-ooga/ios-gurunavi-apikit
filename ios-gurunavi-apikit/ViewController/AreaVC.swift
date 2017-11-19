@@ -77,7 +77,7 @@ extension AreaVC:UITableViewDelegate{
         
         //すべてのエリアの中から、選択した県のエリアを抽出する
         loadRestsInfo(indexPath)
-        moveToAreaVC()
+        moveToRestsVC()
     }
     
     func loadRestsInfo(_ indexPath:IndexPath){
@@ -94,7 +94,7 @@ extension AreaVC:UITableViewDelegate{
         
     }
     
-    func moveToAreaVC(){
+    func moveToRestsVC(){
         let restsVC = RestsVC.init(nibName: String(describing: RestsVC.self), bundle: nil)
         self.navigationController?.pushViewController(restsVC, animated: true)
     }

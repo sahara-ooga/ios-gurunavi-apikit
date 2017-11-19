@@ -13,6 +13,8 @@
 		104E60181FC1507800F00F3C /* RestaurantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E60161FC1507800F00F3C /* RestaurantTableViewCell.xib */; };
 		104E601B1FC1529300F00F3C /* RestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60191FC1529300F00F3C /* RestsVC.swift */; };
 		104E601C1FC1529300F00F3C /* RestsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E601A1FC1529300F00F3C /* RestsVC.xib */; };
+		1059CAF11FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059CAF01FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift */; };
+		1059CAF31FC17088002C6B04 /* GurunaviAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059CAF21FC17088002C6B04 /* GurunaviAPIManager.swift */; };
 		10829AF51FBFC4D400C7A507 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF41FBFC4D400C7A507 /* area.json */; };
 		10829AF71FBFC4F900C7A507 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */; };
 		10829AF91FBFC50200C7A507 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF81FBFC50200C7A507 /* Error.json */; };
@@ -64,6 +66,8 @@
 		104E60161FC1507800F00F3C /* RestaurantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantTableViewCell.xib; sourceTree = "<group>"; };
 		104E60191FC1529300F00F3C /* RestsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RestsVC.swift; path = ViewController/RestsVC.swift; sourceTree = "<group>"; };
 		104E601A1FC1529300F00F3C /* RestsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RestsVC.xib; path = ViewController/RestsVC.xib; sourceTree = "<group>"; };
+		1059CAF01FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPIManagerTests.swift; sourceTree = "<group>"; };
+		1059CAF21FC17088002C6B04 /* GurunaviAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPIManager.swift; sourceTree = "<group>"; };
 		10829AF41FBFC4D400C7A507 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
 		10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsedPartial.json; sourceTree = "<group>"; };
 		10829AF81FBFC50200C7A507 /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 				10829B0A1FBFC58A00C7A507 /* GurunaviAPI.swift */,
 				10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */,
 				10829B081FBFC58A00C7A507 /* JSONDataParser.swift */,
+				1059CAF21FC17088002C6B04 /* GurunaviAPIManager.swift */,
 			);
 			path = Infra;
 			sourceTree = "<group>";
@@ -175,10 +180,10 @@
 			isa = PBXGroup;
 			children = (
 				10829B011FBFC57B00C7A507 /* Area.swift */,
+				10829B221FBFD07400C7A507 /* AreaInfo.swift */,
 				10829B031FBFC57C00C7A507 /* Pref.swift */,
 				10829B001FBFC57B00C7A507 /* RestDto.swift */,
 				10829B021FBFC57B00C7A507 /* RestInfoDto.swift */,
-				10829B221FBFD07400C7A507 /* AreaInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				10829B141FBFC63500C7A507 /* LoadAreaInfoTests.swift */,
 				10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */,
 				10829B161FBFC63500C7A507 /* SessionTests.swift */,
+				1059CAF01FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift */,
 			);
 			path = "ios-gurunavi-apikitTests";
 			sourceTree = "<group>";
@@ -529,6 +535,7 @@
 				10829B061FBFC57C00C7A507 /* RestInfoDto.swift in Sources */,
 				10829B051FBFC57C00C7A507 /* Area.swift in Sources */,
 				10829B201FBFD02700C7A507 /* AreaVC.swift in Sources */,
+				1059CAF31FC17088002C6B04 /* GurunaviAPIManager.swift in Sources */,
 				10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */,
 				10829B231FBFD07400C7A507 /* AreaInfo.swift in Sources */,
 				104E601B1FC1529300F00F3C /* RestsVC.swift in Sources */,
@@ -544,6 +551,7 @@
 			files = (
 				10829B1B1FBFC63600C7A507 /* SessionTests.swift in Sources */,
 				10829B1D1FBFC63600C7A507 /* GurunaviErrorTests.swift in Sources */,
+				1059CAF11FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift in Sources */,
 				10829B191FBFC63600C7A507 /* LoadAreaInfoTests.swift in Sources */,
 				10829B1C1FBFC63600C7A507 /* RestInfoDtoTest.swift in Sources */,
 				10F4C76E1FBDDCF900A5BDEB /* ios_gurunavi_apikitTests.swift in Sources */,
