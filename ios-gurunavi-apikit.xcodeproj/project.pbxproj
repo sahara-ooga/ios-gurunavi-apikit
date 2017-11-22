@@ -43,6 +43,9 @@
 		10829B201FBFD02700C7A507 /* AreaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B1E1FBFD02700C7A507 /* AreaVC.swift */; };
 		10829B211FBFD02700C7A507 /* AreaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10829B1F1FBFD02700C7A507 /* AreaVC.xib */; };
 		10829B231FBFD07400C7A507 /* AreaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10829B221FBFD07400C7A507 /* AreaInfo.swift */; };
+		10AAF1FD1FC4734800474A48 /* PaginationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF1FC1FC4734800474A48 /* PaginationRequest.swift */; };
+		10AAF1FF1FC4741F00474A48 /* PaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF1FE1FC4741F00474A48 /* PaginationResponse.swift */; };
+		10AAF2011FC4758F00474A48 /* PaginationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF2001FC4758F00474A48 /* PaginationClient.swift */; };
 		10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */; };
 		10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */; };
 		10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */; };
@@ -99,6 +102,9 @@
 		10829B1E1FBFD02700C7A507 /* AreaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AreaVC.swift; path = ViewController/AreaVC.swift; sourceTree = "<group>"; };
 		10829B1F1FBFD02700C7A507 /* AreaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AreaVC.xib; path = ViewController/AreaVC.xib; sourceTree = "<group>"; };
 		10829B221FBFD07400C7A507 /* AreaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaInfo.swift; sourceTree = "<group>"; };
+		10AAF1FC1FC4734800474A48 /* PaginationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationRequest.swift; sourceTree = "<group>"; };
+		10AAF1FE1FC4741F00474A48 /* PaginationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationResponse.swift; sourceTree = "<group>"; };
+		10AAF2001FC4758F00474A48 /* PaginationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationClient.swift; sourceTree = "<group>"; };
 		10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gurunavi-apikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefVC.swift; sourceTree = "<group>"; };
@@ -182,6 +188,9 @@
 				10829B0C1FBFC58A00C7A507 /* GurunaviError.swift */,
 				10829B081FBFC58A00C7A507 /* JSONDataParser.swift */,
 				1059CAF21FC17088002C6B04 /* GurunaviAPIManager.swift */,
+				10AAF1FC1FC4734800474A48 /* PaginationRequest.swift */,
+				10AAF1FE1FC4741F00474A48 /* PaginationResponse.swift */,
+				10AAF2001FC4758F00474A48 /* PaginationClient.swift */,
 			);
 			path = Infra;
 			sourceTree = "<group>";
@@ -536,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AAF2011FC4758F00474A48 /* PaginationClient.swift in Sources */,
 				10829B071FBFC57C00C7A507 /* Pref.swift in Sources */,
 				10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */,
 				10021B731FC1D723005DC4A4 /* AppDelegateCallable.swift in Sources */,
@@ -554,7 +564,9 @@
 				10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */,
 				10829B231FBFD07400C7A507 /* AreaInfo.swift in Sources */,
 				104E601B1FC1529300F00F3C /* RestsVC.swift in Sources */,
+				10AAF1FD1FC4734800474A48 /* PaginationRequest.swift in Sources */,
 				10829B131FBFC5A300C7A507 /* CommonDefines.swift in Sources */,
+				10AAF1FF1FC4741F00474A48 /* PaginationResponse.swift in Sources */,
 				10829B0F1FBFC58A00C7A507 /* GurunaviAPI.swift in Sources */,
 				10829B0D1FBFC58A00C7A507 /* JSONDataParser.swift in Sources */,
 				10021B6F1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift in Sources */,
