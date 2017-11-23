@@ -7,33 +7,35 @@
 //
 
 import APIKit
+import Result
 
 class PaginationClient<Request: PaginationRequest> {
     let baseRequest:Request
-    let updateHandler:() ->Void
+    let updateHandler:(Result<Request.Response, SessionTaskError>) ->Void
     
-    init(baseRequest:Request, updateHandler:@escaping ()  -> Void) {
+    init(baseRequest:Request,
+         updateHandler:@escaping (Result<Request.Response, SessionTaskError>)  -> Void) {
         self.baseRequest = baseRequest
         self.updateHandler = updateHandler
     }
     
     var elements:[Request.Response.Element] = []
-    var hasNextPage:Bool = false
-    var page:Int = 1
+    private var hasNextPage:Bool = false    
+    private var page:Int = 1
     
     func refresh() {
         let request = baseRequest.requestWithPage(page: 1)
+        self.page = 1
         
         Session.send(request){ result in
             switch result {
             case .success(let response):
                 self.elements = response.elements
                 self.hasNextPage = response.hasNextPage
-                self.updateHandler()
+                self.updateHandler(Result(response))
             
             case .failure(let error):
-                //handle error
-                print(error)
+                self.updateHandler(Result(error: error))
             }
         }
     }
@@ -51,10 +53,10 @@ class PaginationClient<Request: PaginationRequest> {
             case .success(let response):
                 self.elements = response.elements
                 self.hasNextPage = response.hasNextPage
-                self.updateHandler()
+                self.updateHandler(Result(response))
                 
             case .failure(let error):
-                print(error)
+                self.updateHandler(Result(error: error))
             }
         }
         

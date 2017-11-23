@@ -23,9 +23,26 @@ class PaginationClientTests: XCTestCase {
     
     func testRefresh() {
         let expectation = XCTestExpectation(description: "Pagination client fetches restInfoDto")
+        let hitPerPage = 3
+        let request = GurunaviAPI.RestsRequest(areacode: "AREAL5522",
+                                               hitPerPage: hitPerPage,
+                                               offsetPage: 1)
         
-//        let 
+        let pSession = PaginationClient(baseRequest: request){
+            result in
+            switch result{
+            case .success(let response):
+                XCTAssertEqual(response.restInfoDto.rests.count,
+                               hitPerPage)
+                expectation.fulfill()
+            case .failure(let error):
+                XCTFail("fail to fetch response >>>>error:\(error)")
+            }
+            
+        }
+        
+        pSession.refresh()
+        wait(for:[expectation],timeout:10.0)
     }
 
-    
 }
