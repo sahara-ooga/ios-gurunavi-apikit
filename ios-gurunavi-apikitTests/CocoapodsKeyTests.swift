@@ -26,6 +26,7 @@ class CocoapodsKeyTests: XCTestCase {
     
     func testExample() {
         XCTAssertNotNil(keys.accessKey)
+        print(keys.accessKey)
     }
     
 }

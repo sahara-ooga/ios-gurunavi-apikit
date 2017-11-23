@@ -35,9 +35,9 @@ class GurunaviAPIManagerTests: XCTestCase {
         // When to use: move from AreaVC to RestsVC
         mngr.fetchRestInfo(at:areas[0]){result in
             switch result{
-            case .success(let restInfoDto):
-                print("success>>>",restInfoDto)
-                XCTAssertEqual(restInfoDto.hitPerPage, "50")
+            case .success(let response):
+                print("success>>>",response)
+                XCTAssertEqual(response.restInfoDto.hitPerPage, 50)
                 expectation.fulfill()
                 
             case .failure(let error):
@@ -47,7 +47,7 @@ class GurunaviAPIManagerTests: XCTestCase {
             
         }
         
-        wait(for:[expectation],timeout:5.0)
+        wait(for:[expectation],timeout:10.0)
 
     }
     

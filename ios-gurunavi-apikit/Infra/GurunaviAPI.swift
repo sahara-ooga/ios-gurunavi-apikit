@@ -14,7 +14,8 @@ struct GurunaviAPI{
     static let keys = Ios_apikit_codable_sampleTestsKeys()
 
     struct RestsRequest:APIKit.Request {
-        typealias Response = RestInfoDto
+        
+        typealias Response = GurunaviPaginationResponse
 
         var baseURL: URL{
             return URL(string:"https://api.gnavi.co.jp/RestSearchAPI/20150630")!
@@ -28,8 +29,9 @@ struct GurunaviAPI{
             return ""
         }
         
-        func response(from object: Any, urlResponse: HTTPURLResponse) throws -> RestInfoDto {
-            return try JSONDecoder().decode(RestInfoDto.self, from: object as! Data)//TODO:Data, jsonの取扱い
+        func response(from object: Any, urlResponse: HTTPURLResponse) throws -> GurunaviPaginationResponse {
+            let restInfoDto =  try JSONDecoder().decode(RestInfoDto.self, from: object as! Data)//TODO:Data, jsonの取扱い
+            return GurunaviPaginationResponse(restInfoDto: restInfoDto, page: page)
         }
         
         let areacode:String
@@ -44,4 +46,18 @@ struct GurunaviAPI{
                     "format":"json"]
         }
     }
+    
+    
+}
+
+extension GurunaviAPI.RestsRequest:PaginationRequest{
+    var page: Int {
+        return offsetPage
+    }
+    
+    func requestWithPage(page: Int) -> GurunaviAPI.RestsRequest {
+        return self
+    }
+    
+    
 }
