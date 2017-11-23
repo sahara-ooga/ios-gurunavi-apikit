@@ -30,9 +30,9 @@ class SessionTests: XCTestCase {
         
         Session.send(request){result in
             switch result{
-            case .success(let restInfoDto):
-                print("success>>>",restInfoDto)
-                XCTAssertEqual(restInfoDto.rests.count, 3)
+            case .success(let response):
+                print("success>>>",response)
+                XCTAssertEqual(response.elements.count, 3)
                 expectation.fulfill()
             case .failure(let error):
                 print("error: \(error)")

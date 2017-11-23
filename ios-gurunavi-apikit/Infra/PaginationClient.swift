@@ -39,8 +39,6 @@ class PaginationClient<Request: PaginationRequest> {
     }
     
     func loadNextPage() {
-        //do something
-        
         guard hasNextPage else {
             return
         }
@@ -56,7 +54,6 @@ class PaginationClient<Request: PaginationRequest> {
                 self.updateHandler()
                 
             case .failure(let error):
-                //handle error
                 print(error)
             }
         }

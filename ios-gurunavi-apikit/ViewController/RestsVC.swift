@@ -24,7 +24,9 @@ class RestsVC: UIViewController {
                                                 DispatchQueue.main.async {
                                                     switch result{
                                                     case .success(let response):
-                                                        self?.appDelegate().restsViewDataProvider.add(response.rests)
+                                                        self?.appDelegate().restsViewDataProvider
+                                                        .add(response.restInfoDto.rests)
+                                                        
                                                         self?.restsTableView.reloadData()
                                                         
                                                     case .failure(let error):

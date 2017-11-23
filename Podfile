@@ -9,7 +9,7 @@ target 'ios-gurunavi-apikit' do
 	plugin 'cocoapods-keys', {
         :project => "ios-gurunavi-apikit",
         :keys => [
-        "accessKey"
+            "accessKey"
     ]}
 
     pod 'APIKit', '~> 3.1'
