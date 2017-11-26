@@ -30,4 +30,5 @@ fullyLoaded --> fullyLoaded : loadFully
 @enduml
 ```
 
-![]()
+
+![state transition diagram image](https://raw.githubusercontent.com/sahara-ooga/ios-gurunavi-apikit/image/image/plantuml_state%401-21.png)
