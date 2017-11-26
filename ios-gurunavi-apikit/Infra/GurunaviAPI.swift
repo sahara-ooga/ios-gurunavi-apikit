@@ -18,7 +18,7 @@ struct GurunaviAPI{
         typealias Response = GurunaviPaginationResponse
 
         var baseURL: URL{
-            return URL(string:"https://api.gnavi.co.jp/RestSearchAPI/20150630")!
+            return URL(string:"https://api.gnavi.co.jp")!
         }
         
         var method: HTTPMethod{
@@ -26,11 +26,11 @@ struct GurunaviAPI{
         }
         
         var path: String{
-            return ""
+            return "/RestSearchAPI/20150630"
         }
         
         func response(from object: Any, urlResponse: HTTPURLResponse) throws -> GurunaviPaginationResponse {
-            let restInfoDto =  try JSONDecoder().decode(RestInfoDto.self, from: object as! Data)//TODO:Data, jsonの取扱い
+            let restInfoDto =  try JSONDecoder().decode(RestInfoDto.self, from: object as! Data)
             return GurunaviPaginationResponse(restInfoDto: restInfoDto, page: page)
         }
         
