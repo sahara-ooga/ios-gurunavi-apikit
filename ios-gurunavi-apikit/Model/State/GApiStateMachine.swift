@@ -27,7 +27,7 @@ let apiAccessGraph:[Transition<GApiState,GApiEvent>] = [
 
     //from partially loaded
     Transition(from: .partiallyLoaded, to: .loadedError,
-               by: DefaultEvent.loadPartially),
+               by: DefaultEvent.errorOccur),
     Transition(from: .partiallyLoaded, to: .partiallyLoaded,
                by: DefaultEvent.loadPartially),
     Transition(from: .partiallyLoaded, to: .fullyLoaded,
@@ -35,7 +35,7 @@ let apiAccessGraph:[Transition<GApiState,GApiEvent>] = [
 
     //from partially loaded
     Transition(from: .fullyLoaded, to: .loadedError,
-               by: DefaultEvent.loadPartially),
+               by: DefaultEvent.errorOccur),
     Transition(from: .fullyLoaded, to: .partiallyLoaded,
                by: DefaultEvent.loadPartially),
     Transition(from: .fullyLoaded, to: .fullyLoaded,
@@ -43,7 +43,7 @@ let apiAccessGraph:[Transition<GApiState,GApiEvent>] = [
 ]
 
 struct AutomatonManager {
-    let apiAccessMachine = Automaton<GApiState,GApiEvent>(
+    static let apiAccessMachine = Automaton<GApiState,GApiEvent>(
         initialState: .root,
         transitions: apiAccessGraph
     )

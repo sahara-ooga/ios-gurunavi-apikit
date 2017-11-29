@@ -10,27 +10,61 @@ import XCTest
 @testable import ios_gurunavi_apikit
 
 class AutomatonTests: XCTestCase {
-//    let machine = AutomatonMa
+    let machine = AutomatonManager.apiAccessMachine
+    var currentState: GApiState? = .root
+
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testErrorToFull() {
+        self.tryRoute(events: [
+            DefaultEvent.errorOccur,
+            DefaultEvent.loadPartially,
+            DefaultEvent.loadFully
+            ])
+        XCTAssert(self.currentState == .fullyLoaded)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testPartialToFull() {
+        self.tryRoute(events: [
+            DefaultEvent.loadPartially,
+            DefaultEvent.loadPartially,
+            DefaultEvent.loadFully
+            ])
+        XCTAssert(self.currentState == .fullyLoaded)
+    }
+    
+    func testPartialErrorAndFull() {
+        self.tryRoute(events: [
+            DefaultEvent.loadPartially,
+            DefaultEvent.errorOccur,
+            DefaultEvent.loadFully,
+            DefaultEvent.errorOccur,
+            DefaultEvent.loadPartially
+            ])
+        XCTAssert(self.currentState == .partiallyLoaded)
+    }
+    
+    func testFullToError() {
+        self.tryRoute(events: [
+            DefaultEvent.loadFully,
+            DefaultEvent.loadPartially,
+            DefaultEvent.errorOccur
+            ])
+        XCTAssert(self.currentState == .loadedError)
+    }
+    
+    private func tryRoute(events: [GApiEvent]) {
+        for event in events {
+            self.currentState.map { state in
+                self.currentState = self.machine.transition(from: state,
+                                                            by: event)
+            }
         }
     }
-    
 }

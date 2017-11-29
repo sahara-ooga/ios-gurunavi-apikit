@@ -27,7 +27,7 @@ class Automaton<S: Hashable, E: Hashable> {
     }
 
     func transition(from: S, by: E) -> S? {
-        guard let next = routes[from]/* [E:S]*/.flatMap({ $0[by] }) else { return nil }
+        guard let next = routes[from].flatMap({ $0[by] }) else { return nil }
         return next
     }
 }
