@@ -32,3 +32,9 @@ fullyLoaded --> fullyLoaded : loadFully
 
 
 ![state transition diagram image](https://raw.githubusercontent.com/sahara-ooga/ios-gurunavi-apikit/image/image/plantuml_state%401-21.png)
+
+
+Each formula corresponds to the one in apiAccessGraph.
+
+## Reference
+[オートマトンを活用したiOS版メルカリ アッテの会員登録画面](http://tech.mercari.com/entry/2017/11/17/161508)
