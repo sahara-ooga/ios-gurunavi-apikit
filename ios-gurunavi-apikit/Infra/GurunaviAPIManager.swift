@@ -10,15 +10,16 @@ import Result
 
 struct GurunaviAPIManager {
     func fetchRestInfo(at area:Area,
+                       hitPerPage:Int = 50,
                        page: Int = 1,
                        completion:@escaping (_ result:Result<GurunaviAPI.RestsRequest.Response, SessionTaskError>) ->Void
         ) {
         let request = GurunaviAPI.RestsRequest(areacode: area.areaCode,
-                                               hitPerPage: 50,
+                                               hitPerPage: hitPerPage,
                                                offsetPage: page)
         
         Session.send(request){completion($0)}
             
-        }
     }
+}
 

@@ -31,13 +31,18 @@ class GurunaviAPIManagerTests: XCTestCase {
     }
     
     func testFetchRestsInfo() {
+        let hitPerPage = 2
         let expectation = XCTestExpectation(description: "Fetch restInfoDto")
+        
         // When to use: move from AreaVC to RestsVC
-        mngr.fetchRestInfo(at:areas[0]){result in
+        mngr.fetchRestInfo(at:areas[0],hitPerPage: hitPerPage){result in
+            print("testFetchRestsInfo received result...")
+
             switch result{
+                
             case .success(let response):
                 print("success>>>",response)
-                XCTAssertEqual(response.restInfoDto.hitPerPage, 50)
+                XCTAssertEqual(response.restInfoDto.hitPerPage, hitPerPage)
                 expectation.fulfill()
                 
             case .failure(let error):
