@@ -19,6 +19,7 @@
 		104E601C1FC1529300F00F3C /* RestsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E601A1FC1529300F00F3C /* RestsVC.xib */; };
 		1059CAF11FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059CAF01FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift */; };
 		1059CAF31FC17088002C6B04 /* GurunaviAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1059CAF21FC17088002C6B04 /* GurunaviAPIManager.swift */; };
+		1062F7981FD234C20076ADF1 /* MonadicAutomaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1062F7971FD234C20076ADF1 /* MonadicAutomaton.swift */; };
 		10829AF51FBFC4D400C7A507 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF41FBFC4D400C7A507 /* area.json */; };
 		10829AF71FBFC4F900C7A507 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */; };
 		10829AF91FBFC50200C7A507 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10829AF81FBFC50200C7A507 /* Error.json */; };
@@ -54,6 +55,7 @@
 		10C7765D1FC6AEC600EA2C32 /* GurunaviPaginationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C7765C1FC6AEC600EA2C32 /* GurunaviPaginationResponse.swift */; };
 		10D20BC51FC9989E005CAF3F /* GApiEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D20BC41FC9989E005CAF3F /* GApiEvent.swift */; };
 		10D20BC71FC99965005CAF3F /* GApiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D20BC61FC99965005CAF3F /* GApiState.swift */; };
+		10DEEAE41FD195A0006E51D0 /* TransitionFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEEAE31FD195A0006E51D0 /* TransitionFunc.swift */; };
 		10F4C7591FBDDCF800A5BDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */; };
 		10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */; };
 		10F4C75E1FBDDCF800A5BDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F4C75C1FBDDCF800A5BDEB /* Main.storyboard */; };
@@ -87,6 +89,7 @@
 		104E601A1FC1529300F00F3C /* RestsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RestsVC.xib; path = ViewController/RestsVC.xib; sourceTree = "<group>"; };
 		1059CAF01FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPIManagerTests.swift; sourceTree = "<group>"; };
 		1059CAF21FC17088002C6B04 /* GurunaviAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GurunaviAPIManager.swift; sourceTree = "<group>"; };
+		1062F7971FD234C20076ADF1 /* MonadicAutomaton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonadicAutomaton.swift; sourceTree = "<group>"; };
 		10829AF41FBFC4D400C7A507 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
 		10829AF61FBFC4F900C7A507 /* AreaParsedPartial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsedPartial.json; sourceTree = "<group>"; };
 		10829AF81FBFC50200C7A507 /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		10D00BE91FCAB5DD0039E016 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10D20BC41FC9989E005CAF3F /* GApiEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GApiEvent.swift; sourceTree = "<group>"; };
 		10D20BC61FC99965005CAF3F /* GApiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GApiState.swift; sourceTree = "<group>"; };
+		10DEEAE31FD195A0006E51D0 /* TransitionFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFunc.swift; sourceTree = "<group>"; };
 		10F4C7551FBDDCF800A5BDEB /* ios-gurunavi-apikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-gurunavi-apikit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4C7581FBDDCF800A5BDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4C75A1FBDDCF800A5BDEB /* PrefVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefVC.swift; sourceTree = "<group>"; };
@@ -262,11 +266,13 @@
 		10D20BC31FC9986B005CAF3F /* State */ = {
 			isa = PBXGroup;
 			children = (
+				1062F7971FD234C20076ADF1 /* MonadicAutomaton.swift */,
 				10B879401FC99B0100FE2A71 /* Automaton.swift */,
 				10B8793E1FC99A6B00FE2A71 /* State.swift */,
 				10D20BC41FC9989E005CAF3F /* GApiEvent.swift */,
 				10D20BC61FC99965005CAF3F /* GApiState.swift */,
 				10B879421FC99B7800FE2A71 /* GApiStateMachine.swift */,
+				10DEEAE31FD195A0006E51D0 /* TransitionFunc.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -582,9 +588,11 @@
 				10AAF2011FC4758F00474A48 /* PaginationClient.swift in Sources */,
 				10D20BC51FC9989E005CAF3F /* GApiEvent.swift in Sources */,
 				10829B071FBFC57C00C7A507 /* Pref.swift in Sources */,
+				1062F7981FD234C20076ADF1 /* MonadicAutomaton.swift in Sources */,
 				10F4C75B1FBDDCF800A5BDEB /* PrefVC.swift in Sources */,
 				10D20BC71FC99965005CAF3F /* GApiState.swift in Sources */,
 				10021B731FC1D723005DC4A4 /* AppDelegateCallable.swift in Sources */,
+				10DEEAE41FD195A0006E51D0 /* TransitionFunc.swift in Sources */,
 				10829B111FBFC58A00C7A507 /* GurunaviError.swift in Sources */,
 				10829B0E1FBFC58A00C7A507 /* DataParser.swift in Sources */,
 				104E60171FC1507800F00F3C /* RestaurantTableViewCell.swift in Sources */,
