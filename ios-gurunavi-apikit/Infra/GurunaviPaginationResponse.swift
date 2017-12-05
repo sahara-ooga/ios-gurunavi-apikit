@@ -18,6 +18,6 @@ struct GurunaviPaginationResponse:PaginationResponse,Codable {
     var hasNextPage: Bool{
         //how many rests loaded in total.
         let countOfLoadedElements = (page - 1) * restInfoDto.hitPerPage + elements.count
-        return countOfLoadedElements == restInfoDto.totalHitCount
+        return countOfLoadedElements < restInfoDto.totalHitCount
     }
 }
