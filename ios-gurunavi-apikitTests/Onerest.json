@@ -1,0 +1,101 @@
+{
+    "@attributes": {
+        "api_version": "20150630"
+    },
+    "total_hit_count": "10",
+    "hit_per_page": "1",
+    "page_offset": "10",
+    "rest": [
+             {
+             "@attributes": {
+             	"order": "0"
+             },
+             "id": "gazz107",
+             "update_date": "2017-11-07 02:17:01",
+             "name": "完全個室×肉バル NIKUSYOKU‐ニクショク‐ 新横浜",
+             "name_kana": "カンゼンコシツニクバル ニクショクシンヨコハマ",
+             "latitude": "35.505928",
+             "longitude": "139.618761",
+             "category": "新横浜 完全個室居酒屋",
+             "url": "https:\/\/r.gnavi.co.jp\/a4y1fehe0000\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "url_mobile": "http:\/\/mobile.gnavi.co.jp\/shop\/gazz107\/?ak=Uyp9H%2BoQQTVFIzbo%2B4jVQvV%2Fs8QPyc08MbAYpjNcv8U%3D",
+             "coupon_url": {
+             "pc": "https:\/\/r.gnavi.co.jp\/a4y1fehe0000\/coupon\/",
+             "mobile": "http:\/\/mobile.gnavi.co.jp\/shop\/gazz107\/coupon"
+             },
+             "image_url": {
+             "shop_image1": "https:\/\/uds.gnst.jp\/rest\/img\/a4y1fehe0000\/t_003x.jpg",
+             "shop_image2": "https:\/\/uds.gnst.jp\/rest\/img\/a4y1fehe0000\/t_001c.jpg",
+             "qrcode": "https:\/\/c-r.gnst.jp\/tool\/qr\/?id=gazz107&q=6"
+             },
+             "address": "〒222-0033 神奈川県横浜市港北区新横浜2-5-16 たあぶる館8F",
+             "tel": "050-3467-9391",
+             "tel_sub": "03-6380-6679",
+             "fax": [],
+             "opentime": "月～日 16:00～24:00",
+             "holiday": "無",
+             "access": {
+             "line": "ＪＲ",
+             "station": "新横浜駅",
+             "station_exit": [],
+             "walk": "2",
+             "note": []
+             },
+             "parking_lots": [],
+             "pr": {
+             "pr_short": "新横浜駅2分！完全個室×ワイン×肉バル♪ 貸切280名様迄OK！各種宴会,女子会,打ち上げに◎ 和牛や熟成肉のローストビーフを堪能！ 3時間飲み放題付コース3000円～",
+             "pr_long": "NEWOPEN！JR新横浜駅徒歩2分！<BR>扉付個室完備！プライベート空間で寛ぎのお時間を…◎<BR>テーブル\/掘り炬燵\/座敷\/カウンターetc多彩なお席をご用意しております。<BR>▼こだわり食材で彩るバルメニュー▼<BR>厳選和牛や直送鮮魚、季節野菜を使った多彩な料理…<BR>素材の味を活かした旬の本格料理をお届け致します！<BR>－3時間飲み放題付コース－<BR>地鶏の網焼き付！全7品『大山地鶏究極堪能コース』3000円<BR>ブランド黒豚付！全8品『ブランド黒豚堪能コース』4000円<BR>和牛料理ご堪能！全9品『プレミアム和牛コース』 5000円<BR>▼限定クーポン！▼<BR>・OPEN記念！お会計から15％OFF！<BR>・8名様以上のご予約で幹事様1名分無料！<BR>・誕生日\/記念日にデザートプレート無料サービス！<BR>各種宴会,女子会,合コン,誕生日会に◎<BR>横浜アリーナ・日産スタジアム近くでイベント後の打ち上げにも！"
+             },
+             "code": {
+             "areacode": "AREA110",
+             "areaname": "関東",
+             "prefcode": "PREF14",
+             "prefname": "神奈川県",
+             "areacode_s": "AREAS2354",
+             "areaname_s": "新横浜",
+             "category_code_l": [
+                                 "RSFST09000",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_name_l": [
+                                 "居酒屋",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_code_s": [
+                                 "RSFST09004",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ],
+             "category_name_s": [
+                                 "居酒屋",
+                                 {
+                                 "@attributes": {
+                                 "order": "1"
+                                 }
+                                 }
+                                 ]
+             },
+             "budget": "3000",
+             "party": "3000",
+             "lunch": [],
+             "credit_card": [],
+             "e_money": [],
+             "flags": {
+             "mobile_site": "1",
+             "mobile_coupon": "1",
+             "pc_coupon": "1"
+             }
+             }
+             ]
+}

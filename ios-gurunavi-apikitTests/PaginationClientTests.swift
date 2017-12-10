@@ -49,7 +49,7 @@ class PaginationClientTests: XCTestCase {
         pSession.refresh()
         wait(for:[expectation],timeout:10.0)
     }
-
+    
     func testLoadNextPage() {
         let expectation = XCTestExpectation(description: "Pagination client fetches first restInfoDto")
         let nextExpectation = XCTestExpectation(description:"next rest")

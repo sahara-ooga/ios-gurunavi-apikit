@@ -11,6 +11,9 @@
 		10021B6F1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B6E1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift */; };
 		10021B711FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B701FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift */; };
 		10021B731FC1D723005DC4A4 /* AppDelegateCallable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10021B721FC1D723005DC4A4 /* AppDelegateCallable.swift */; };
+		101F71521FDD4F8400247B0F /* Onerest.json in Resources */ = {isa = PBXBuildFile; fileRef = 101F71511FDD4F8400247B0F /* Onerest.json */; };
+		101F71531FDD4F8400247B0F /* Onerest.json in Resources */ = {isa = PBXBuildFile; fileRef = 101F71511FDD4F8400247B0F /* Onerest.json */; };
+		102F4C8F1FD83669003F63D6 /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F4C8E1FD83669003F63D6 /* ResponseTests.swift */; };
 		104E60131FC1476100F00F3C /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60111FC1476100F00F3C /* AreaCell.swift */; };
 		104E60141FC1476100F00F3C /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104E60121FC1476100F00F3C /* AreaCell.xib */; };
 		104E60171FC1507800F00F3C /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */; };
@@ -81,6 +84,8 @@
 		10021B6E1FC1CFF2005DC4A4 /* RestsViewDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestsViewDataProvider.swift; sourceTree = "<group>"; };
 		10021B701FC1D6D3005DC4A4 /* UITableView+RegisterNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+RegisterNib.swift"; path = "Others/UITableView+RegisterNib.swift"; sourceTree = "<group>"; };
 		10021B721FC1D723005DC4A4 /* AppDelegateCallable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegateCallable.swift; path = Others/AppDelegateCallable.swift; sourceTree = "<group>"; };
+		101F71511FDD4F8400247B0F /* Onerest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onerest.json; sourceTree = "<group>"; };
+		102F4C8E1FD83669003F63D6 /* ResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
 		104E60111FC1476100F00F3C /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
 		104E60121FC1476100F00F3C /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
 		104E60151FC1507700F00F3C /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
@@ -257,6 +262,7 @@
 		10829AFF1FBFC53F00C7A507 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				101F71511FDD4F8400247B0F /* Onerest.json */,
 				10829AFC1FBFC53000C7A507 /* response.json */,
 				10F4C76F1FBDDCF900A5BDEB /* Info.plist */,
 			);
@@ -319,6 +325,7 @@
 				10829B181FBFC63600C7A507 /* GurunaviErrorTests.swift */,
 				10829B141FBFC63500C7A507 /* LoadAreaInfoTests.swift */,
 				10829B171FBFC63500C7A507 /* RestInfoDtoTest.swift */,
+				102F4C8E1FD83669003F63D6 /* ResponseTests.swift */,
 				10829B161FBFC63500C7A507 /* SessionTests.swift */,
 				1059CAF01FC16FC4002C6B04 /* GurunaviAPIManagerTests.swift */,
 				10C7765A1FC6A76B00EA2C32 /* PaginationClientTests.swift */,
@@ -438,6 +445,7 @@
 			files = (
 				10829AF91FBFC50200C7A507 /* Error.json in Resources */,
 				10829AFB1FBFC51400C7A507 /* PrefMaster.json in Resources */,
+				101F71521FDD4F8400247B0F /* Onerest.json in Resources */,
 				104E60141FC1476100F00F3C /* AreaCell.xib in Resources */,
 				10829AF71FBFC4F900C7A507 /* AreaParsedPartial.json in Resources */,
 				10F4C7631FBDDCF800A5BDEB /* LaunchScreen.storyboard in Resources */,
@@ -455,6 +463,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101F71531FDD4F8400247B0F /* Onerest.json in Resources */,
 				10829AFE1FBFC53000C7A507 /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,6 +634,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102F4C8F1FD83669003F63D6 /* ResponseTests.swift in Sources */,
 				10829B1B1FBFC63600C7A507 /* SessionTests.swift in Sources */,
 				10B879451FC9A2B400FE2A71 /* AutomatonTests.swift in Sources */,
 				10829B1D1FBFC63600C7A507 /* GurunaviErrorTests.swift in Sources */,
